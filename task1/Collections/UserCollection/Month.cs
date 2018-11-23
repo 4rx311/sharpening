@@ -1,17 +1,20 @@
 ﻿namespace Collection.UserCollections
 {
-    class Month
+    struct Month
     {
         public static string Name { get; set; }
         public static int Year { get; set; }
 
-        /// </summary> Возвращает количество дней месяца
+        public static readonly int days;
+
+        /// <summary> Считает количество дней у месяца </summary>
         /// <param name="id"> id месяца в коллекции </param>
-        /// <returns>Количество дней в месяце</returns>
-        public int CountDays(int id)
+        /// <returns>Количество дней месяца</returns>
+        public bool CountDays(int id)
         {
             id++;   // увеличиваем значение поскольку отсчет в массивах начинается с 0
-            return System.DateTime.DaysInMonth(Year, id);
+            days = System.DateTime.DaysInMonth(Year, id);
+            return true;
         }
 
         public Month(string name, int year)

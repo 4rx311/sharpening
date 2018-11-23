@@ -24,12 +24,7 @@ namespace Collection.UserCollections
             new Month("November", year),
             new Month("December", year)
         };
-        public void Print()
-        {
-            foreach (Month element in list)
-            {
-                Console.WriteLine("{0}, {1}", element);
-            }
-        }
+        
+        public void 
     }
 }
