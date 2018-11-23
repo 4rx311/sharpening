@@ -37,7 +37,7 @@ namespace Collection.UserCollections
                 while (enumerator.MoveNext())
                 {
                     Month element = (Month)enumerator.Current;
-                    Console.WriteLine("{0}, {1}", element.Name, element.Days);
+                    Console.WriteLine("{0}, {1}", element);
                 }
             }
             catch (Exception ex)
