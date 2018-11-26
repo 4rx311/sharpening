@@ -23,26 +23,82 @@ namespace InputOutput
             var directory = new DirectoryInfo(@"..\..\");
             if (directory.Exists)
             {
-                FileInfo[] files = directory.GetFiles("*.txt");
-                FilesAmount(files);
+                CreateData("data.txt");
 
-                
-                // читаем содержимое файла(ов)
+                FileInfo[] files = directory.GetFiles("*.txt");
+
+                FilesAmount(files);
+                PrintFileData(directory + "data.txt");
+
+
                 // записываем данные с файлов в новый файл
                 // читаем реузльтирующий файл
 
             }
             else
             {
-                Console.WriteLine("Директория с именем: {0}  не существует.", directory.FullName);
+                Console.WriteLine("Директория с именем: {0}  не найдена.", directory.FullName);
             }
             Console.ReadKey();
         }
         #region Data Manipulating
-        ///<summary> Создает файлы с информацией. </summary>
-        static void CreateData()
+        ///<summary> Создает файл с информацией. </summary>
+        static void CreateData(string fileName)
         {
-            var stream = new FileStream("Test.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+            // Создаем новый файл в корневом каталоге диска D:
+            FileInfo file = new FileInfo(@"..\..\" + fileName);             // Создаем файл.           
+
+            #region data writer
+            StreamWriter writer = file.CreateText();        // С помощью экземпляра StreamWriter записываем в файл строк текст.
+            writer.WriteLine("Административные подразделения:");
+            writer.WriteLine("Отдел документационного обеспечения 8(499) 245-06-12");
+            writer.WriteLine("Отдел платных образовательных услуг 8(495) 708-33-94");
+            writer.WriteLine("Отдел текущего планирования и контроля учебного процесса 8(495) 708-36-99");
+            writer.WriteLine("Отдел планирования и финансового контроля 8(499) 245-24-17");
+            writer.Write(writer.NewLine);
+            writer.WriteLine("Управление кадров:");
+            writer.WriteLine("Начальника Управления кадров 8(499) 245 - 11 - 13");
+            writer.WriteLine("Отдел по работе со студентами и выпускникам 8(499) 245-32-02");
+            writer.WriteLine("Отдел по работе с персоналом(сотрудники) 8(499) 245-25-39");
+            writer.WriteLine("Отдел по работе с персоналом 8(495) 708-33-37");
+            writer.Write(writer.NewLine);
+            writer.WriteLine("Бухгалтерия:");
+            writer.WriteLine("Сектор по учету ЗП  8(499) 246-50-89, 8(499) 245-25-53");
+            writer.WriteLine("Сектор по налоговому учету 8(499) 245-33-50");
+            writer.WriteLine("Сектор по учету стипендий 8(499) 255-23-84");
+            writer.WriteLine("Сектор по учету финансовых и нефинансовых активов, обязательств 8(499) 245-17-32");
+            writer.Close();
+            #endregion
+
+            // FileMode.OpenOrCreate - ЕСЛИ: существует ТО: открыть ИНАЧЕ: создать новый
+            // FileAccess.Read - только для чтения,
+            // FileShare.None - Совместный доступ - Нет.
+            FileStream stream = file.Open(FileMode.OpenOrCreate, FileAccess.Read, FileShare.None);
+
+            // Выводим основную информацию о созданном файле.
+            Console.WriteLine("----- File {0} created -----", file.Name);
+            Console.WriteLine("Full Name   : {0}", file.FullName);
+            Console.WriteLine("Attributes  : {0}", file.Attributes.ToString());
+            Console.WriteLine("CreationTime: {0}", file.CreationTime);
+
+            // Закрываем FileStream. 
+            stream.Close();
+        }
+
+        ///<summary> Выводит содержимое файла. </summary>
+        static void PrintFileData(string fileName)
+        {
+            Console.WriteLine("Содержимое файла {0}:\n", fileName);
+            
+            StreamReader reader = File.OpenText(fileName);              // Выводим информацию из файла на консоль при помощи StreamReader. 
+            string input;
+
+            while ((input = reader.ReadLine()) != null)                 // Выводим содержимое файла в консоль.
+            {
+                Console.WriteLine(input);
+            }
+
+            reader.Close();
         }
         #endregion
 
