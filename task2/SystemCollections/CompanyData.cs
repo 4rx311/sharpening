@@ -7,13 +7,13 @@ namespace SystemCollections
 {
     class CompanyData
     {
-        public int Number;
-        public int Amount;
+        public readonly int number;
+        public readonly int amount;
 
-        public CompanyData(int num, int amount)
+        public CompanyData(int num, int amt)
         {
-            Number = num;
-            Amount = amount;
+            number = num;
+            amount = amt;
         }
     }
 }

@@ -14,10 +14,19 @@ namespace SystemCollections
         static void Main(string[] args)
         {
             MyHashTable table = new MyHashTable();
-            table.Init();
             table.Print();
+
+            table.Input(table);
+            table.Print();
+
+
+            MySortedList sort = new MySortedList();
+            sort.Init();
+            sort.Print();
 
             Console.ReadKey();
         }
+
+
     }
 }

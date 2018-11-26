@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="CompanyData.cs" />
     <Compile Include="MyHashTable.cs" />
+    <Compile Include="MySortedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

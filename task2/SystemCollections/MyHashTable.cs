@@ -9,16 +9,16 @@ namespace SystemCollections
     {
         public Hashtable table = new Hashtable();
 
-        CompanyData data1 = new CompanyData(101, 101151);
-        CompanyData data2 = new CompanyData(102, 101011);
-        CompanyData data3 = new CompanyData(103, 251689);
-        CompanyData data4 = new CompanyData(104, 967811);
-
         public void Init() {
-            table[data1.Number] = data1.Amount;
-            table[data2.Number] = data2.Amount;
-            table[data3.Number] = data3.Amount;
-            table[data4.Number] = data4.Amount;
+            CompanyData data1 = new CompanyData(101, 101151);
+            CompanyData data2 = new CompanyData(102, 101011);
+            CompanyData data3 = new CompanyData(103, 251689);
+            CompanyData data4 = new CompanyData(104, 967811);
+
+            table[data1.number] = data1.amount;
+            table[data2.number] = data2.amount;
+            table[data3.number] = data3.amount;
+            table[data4.number] = data4.amount;
         }
 
         public void Print()
@@ -27,6 +27,37 @@ namespace SystemCollections
             {
                 Console.WriteLine("{0} - {1}", name.Key, name.Value);
             }
+        }
+
+        public void Add(int num, int amt)
+        {
+            CompanyData data = new CompanyData(num, amt);
+            table[data.number] = data.amount;
+        }
+
+        public void Input(MyHashTable table)
+        {
+            try
+            {
+                Console.WriteLine("Input");
+                Console.Write("account number: ");
+                int num = Convert.ToInt32(Console.ReadLine());
+
+                Console.Write("account amount: ");
+                int amount = Convert.ToInt32(Console.ReadLine());
+
+                table.Add(num, amount);
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine(ex);
+            }
+            Console.ReadKey();
+        }
+
+        public MyHashTable()
+        {
+            Init();
         }
     }
 }
