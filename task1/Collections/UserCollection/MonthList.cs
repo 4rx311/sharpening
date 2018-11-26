@@ -24,7 +24,5 @@ namespace Collection.UserCollections
             new Month("November", year),
             new Month("December", year)
         };
-        
-        public void 
     }
 }

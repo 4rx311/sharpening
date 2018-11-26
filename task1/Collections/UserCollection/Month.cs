@@ -5,7 +5,7 @@
         public static string Name { get; set; }
         public static int Year { get; set; }
 
-        public static readonly int days;
+        public static  int days;
 
         /// <summary> Считает количество дней у месяца </summary>
         /// <param name="id"> id месяца в коллекции </param>

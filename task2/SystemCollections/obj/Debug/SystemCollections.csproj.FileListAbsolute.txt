@@ -1,0 +1,6 @@
+C:\Users\dvladimirov\source\repos\GitHub\sharpening\task2\SystemCollections\bin\Debug\SystemCollections.exe
+C:\Users\dvladimirov\source\repos\GitHub\sharpening\task2\SystemCollections\bin\Debug\SystemCollections.pdb
+C:\Users\dvladimirov\source\repos\GitHub\sharpening\task2\SystemCollections\obj\Debug\SystemCollections.csprojAssemblyReference.cache
+C:\Users\dvladimirov\source\repos\GitHub\sharpening\task2\SystemCollections\obj\Debug\SystemCollections.csproj.CoreCompileInputs.cache
+C:\Users\dvladimirov\source\repos\GitHub\sharpening\task2\SystemCollections\obj\Debug\SystemCollections.exe
+C:\Users\dvladimirov\source\repos\GitHub\sharpening\task2\SystemCollections\obj\Debug\SystemCollections.pdb

@@ -82,25 +82,17 @@ namespace Collection
 
             void ShowById(int id)
             {
-                try
-                {
-                    //Element element = collection[id];
-                    //Console.WriteLine("{0}, {1}, {2}", id, element.Name, element.Days);
-                }
-                catch (IndexOutOfRangeException)
-                {
-                    Console.WriteLine("!-Out of range value");
-                }
+                Console.WriteLine("In development");
             }
 
             void ShowByDays(int days)
             {
-
+                Console.WriteLine("In development");
             }
 
             void ShowAll()
             {
-
+                Console.WriteLine("In development");
             }
 
             void Help()
