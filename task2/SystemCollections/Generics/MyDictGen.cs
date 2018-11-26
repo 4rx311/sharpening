@@ -1,21 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace SystemCollections
+namespace SystemCollections.Generics
 {
-    class MyReverseComparer<T> : Comparer<T>
-    {
-        public override int Compare(T x, T y)
-        {
-            return y.GetHashCode() - x.GetHashCode();
-        }
-    }
     class MyDictGen
     {
         public Dictionary<int, int> dict = new Dictionary<int, int>();
-        public MyReverseComparer<int> comparer = new MyReverseComparer<int>();
 
         private void Init()
         {
