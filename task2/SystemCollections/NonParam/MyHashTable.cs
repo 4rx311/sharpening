@@ -12,8 +12,9 @@ namespace SystemCollections
         public void Init() {
             CompanyData data1 = new CompanyData(101, 101151);
             CompanyData data2 = new CompanyData(102, 101011);
-            CompanyData data3 = new CompanyData(103, 251689);
-            CompanyData data4 = new CompanyData(104, 967811);
+            CompanyData data3 = new CompanyData(103, 967811);
+            CompanyData data4 = new CompanyData(104, 251689);
+            
 
             table[data1.number] = data1.amount;
             table[data2.number] = data2.amount;
@@ -23,9 +24,11 @@ namespace SystemCollections
 
         public void Print()
         {
+            Console.WriteLine(new string('-', 20));
+            Console.WriteLine("Number:  Amount: ");
             foreach (DictionaryEntry name in table)
             {
-                Console.WriteLine("{0} - {1}", name.Key, name.Value);
+                Console.WriteLine("{0} \t {1}", name.Key, name.Value);
             }
         }
 

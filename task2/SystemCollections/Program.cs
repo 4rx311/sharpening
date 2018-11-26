@@ -15,13 +15,12 @@ namespace SystemCollections
         {
             MyHashTable table = new MyHashTable();
             table.Print();
-
-            table.Input(table);
-            table.Print();
+            
+            //table.Input(table);
+            //table.Print();
 
 
             MySortedList sort = new MySortedList();
-            sort.Init();
             sort.Print();
 
             Console.ReadKey();

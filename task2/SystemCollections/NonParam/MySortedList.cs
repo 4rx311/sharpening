@@ -6,27 +6,29 @@ namespace SystemCollections
     class MySortedList
     {
         SortedList sort = new SortedList(new DescendingComparer());
-        //MyHashTable table = new MyHashTable();
+        MyHashTable table = new MyHashTable();
 
         public void Init()
         {
-            CompanyData data1 = new CompanyData(101, 101151);
-            CompanyData data2 = new CompanyData(102, 101011);
-            CompanyData data3 = new CompanyData(103, 251689);
-            CompanyData data4 = new CompanyData(104, 967811);
-
-            sort[data1.number] = data1.amount;
-            sort[data2.number] = data2.amount;
-            sort[data3.number] = data3.amount;
-            sort[data4.number] = data4.amount;
+            foreach (DictionaryEntry name in table.table)
+            {
+               sort[name.Value] = name.Key;
+            }
         }
 
         public void Print()
         {
+            Console.WriteLine(new string('-', 20));
+            Console.WriteLine("Amount:  Value: ");
             foreach (DictionaryEntry name in sort)
             {
-                Console.WriteLine("{0} - {1}", name.Key, name.Value);
+                Console.WriteLine("{0} \t {1}", name.Key, name.Value );
             }
+        }
+
+        public MySortedList()
+        {
+            Init();
         }
     }
 
