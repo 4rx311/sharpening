@@ -5,6 +5,7 @@ using System.Text;
 
 namespace SystemCollections
 {
+    [Obsolete]
     class MyHashTable
     {
         public Hashtable table = new Hashtable();

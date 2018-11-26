@@ -5,7 +5,7 @@ using System.Text;
 
 namespace SystemCollections
 {
-    class CompanyData
+    struct CompanyData
     {
         public readonly int number;
         public readonly int amount;

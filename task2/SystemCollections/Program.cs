@@ -9,14 +9,22 @@ using System.Text;
 
 namespace SystemCollections
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
+            MyDictGen myDict = new MyDictGen();
+            myDict.Print();
 
             Console.ReadKey();
         }
 
-
+        private static void PrintList<T>(this IEnumerable<T> intList)
+        {
+            foreach (T t in intList)
+            {
+                Console.WriteLine(t);
+            }
+        }
     }
 }
