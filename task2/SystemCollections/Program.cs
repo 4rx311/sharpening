@@ -13,15 +13,6 @@ namespace SystemCollections
     {
         static void Main(string[] args)
         {
-            MyHashTable table = new MyHashTable();
-            table.Print();
-            
-            //table.Input(table);
-            //table.Print();
-
-
-            MySortedList sort = new MySortedList();
-            sort.Print();
 
             Console.ReadKey();
         }

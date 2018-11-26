@@ -3,6 +3,7 @@ using System.Collections;
 
 namespace SystemCollections
 {
+    [Obsolete]
     class MySortedList
     {
         SortedList sort = new SortedList(new DescendingComparer());
