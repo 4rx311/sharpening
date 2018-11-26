@@ -7,7 +7,7 @@ namespace SystemCollections.Generics
 {
     class MySortedListGen
     {
-        public SortedList<int, int> list = new SortedList<int, int>();
+        public SortedList<int, int> list = new SortedList<int, int>(new DescendingComparer<int>());
         MyDictGen dict = new MyDictGen();
 
         public void Init()
@@ -21,6 +21,15 @@ namespace SystemCollections.Generics
         public MySortedListGen()
         {
             Init();
+        }
+        
+        // Позволяет выводить результат по убыванию
+        private class DescendingComparer<T> : IComparer<T>
+        {
+            public int Compare(T x, T y)
+            {
+                return Comparer<T>.Default.Compare(y, x);
+            }
         }
     }
 }

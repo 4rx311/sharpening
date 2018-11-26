@@ -23,6 +23,7 @@ namespace SystemCollections
         public static void Print(Dictionary<int, int> dict)
         {
             Console.WriteLine(new string('-', 20));
+            Console.WriteLine("Dictionary:");
             Console.WriteLine("Number:  Amount: ");
             foreach (var value in dict)
             {
@@ -33,7 +34,8 @@ namespace SystemCollections
         public static void Print(SortedList<int, int> list)
         {
             Console.WriteLine(new string('-', 20));
-            Console.WriteLine("Number:  Amount: ");
+            Console.WriteLine("SortedList:");
+            Console.WriteLine("Amount:  Number:");
             foreach (var value in list)
             {
                 Console.WriteLine("{0} \t {1}", value.Key, value.Value);
