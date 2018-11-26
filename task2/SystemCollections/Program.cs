@@ -13,16 +13,30 @@ namespace SystemCollections
         static void Main(string[] args)
         {
             MyDictGen myDict = new MyDictGen();
-            myDict.Print();
+            MySortedListGen myList = new MySortedListGen();
+            Print(myDict.dict);
+            Print(myList.list);
 
             Console.ReadKey();
         }
 
-        private static void PrintList<T>(this IEnumerable<T> intList)
+        public static void Print(Dictionary<int, int> dict)
         {
-            foreach (T t in intList)
+            Console.WriteLine(new string('-', 20));
+            Console.WriteLine("Number:  Amount: ");
+            foreach (var value in dict)
             {
-                Console.WriteLine(t);
+                Console.WriteLine("{0} \t {1}", value.Key, value.Value);
+            }
+        }
+
+        public static void Print(SortedList<int, int> list)
+        {
+            Console.WriteLine(new string('-', 20));
+            Console.WriteLine("Number:  Amount: ");
+            foreach (var value in list)
+            {
+                Console.WriteLine("{0} \t {1}", value.Key, value.Value);
             }
         }
     }

@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections;
-using System.Linq;
-using System.Text;
 
-namespace SystemCollections
+namespace SystemCollections.Collections
 {
     [Obsolete]
     class MyHashTable

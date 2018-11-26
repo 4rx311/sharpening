@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace SystemCollections
+namespace SystemCollections.Collections
 {
     [Obsolete]
     class MySortedList

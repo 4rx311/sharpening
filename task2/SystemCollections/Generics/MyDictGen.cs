@@ -24,15 +24,5 @@ namespace SystemCollections.Generics
         {
             Init();
         }
-
-        public void Print()
-        {
-            Console.WriteLine(new string('-', 20));
-            Console.WriteLine("Number:  Amount: ");
-            foreach (var value in dict)
-            {
-                Console.WriteLine("{0} \t {1}", value.Key, value.Value);
-            }
-        }
     }
 }

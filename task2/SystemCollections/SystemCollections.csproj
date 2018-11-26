@@ -41,7 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CompanyData.cs" />
-    <Compile Include="MyDictGen.cs" />
+    <Compile Include="Generics\MyDictGen.cs" />
+    <Compile Include="Generics\MySortedListGen.cs" />
     <Compile Include="NonParam\MyHashTable.cs" />
     <Compile Include="NonParam\MySortedList.cs" />
     <Compile Include="Program.cs" />
