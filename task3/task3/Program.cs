@@ -26,8 +26,10 @@ namespace InputOutput
                 FileInfo[] files = directory.GetFiles("*.txt");
                 FilesAmount(files);
 
-
                 
+                // читаем содержимое файла(ов)
+                // записываем данные с файлов в новый файл
+                // читаем реузльтирующий файл
 
             }
             else
@@ -36,8 +38,15 @@ namespace InputOutput
             }
             Console.ReadKey();
         }
+        #region Data Manipulating
+        ///<summary> Создает файлы с информацией. </summary>
+        static void CreateData()
+        {
+            var stream = new FileStream("Test.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+        }
+        #endregion
 
-        #region Info
+        #region Info Print
         ///<summary> Выводит подробную информацию о каталоге. </summary>
         static void DirInfo(DirectoryInfo directory)
         {
