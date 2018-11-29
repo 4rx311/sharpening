@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text.RegularExpressions;
 
 // ------------------_task_3_--------------------------------------------------------
 // Создайте файл, запишите в него произвольные данные и закройте файл.
@@ -20,9 +21,12 @@ namespace InputOutput
     {
         static void Main(string[] args)
         {
-            TxtManipulator text = new TxtManipulator(@"..\..\p");
+            TxtManipulator text = new TxtManipulator(@"..\..\");
             text.DirInfo();
-            
+            text.CreateData("data.txt");
+
+            Regex regex = new Regex(@"\d{3}-\d{3}-\d{4}");
+
 
             //if (directory.Exists)
             //{

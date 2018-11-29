@@ -13,11 +13,12 @@ namespace InputOutput
         }
 
         #region Data Manipulating
-        ///<summary> Создает файл с информацией. </summary>
-        public static void CreateData(string fileName)
+        /// <summary>Создает файл с информацией.</summary>
+        /// <param name="fileName">Укажите название файла.</param>
+        public void CreateData(string fileName)
         {
             // Создаем новый файл в корневом каталоге диска D:
-            FileInfo file = new FileInfo(@"..\..\" + fileName);             // Создаем файл.           
+            FileInfo file = new FileInfo(directory + fileName);             // Создаем файл.           
 
             #region data writer
             StreamWriter writer = file.CreateText();        // С помощью экземпляра StreamWriter записываем в файл строк текст.
@@ -91,7 +92,7 @@ namespace InputOutput
         }
 
         ///<summary> Выводит подробную информацию о каждом файле. </summary>
-        public static void FilesInfo(FileInfo[] files)
+        public void FilesInfo(FileInfo[] files)
         {
             foreach (FileInfo file in files)
             {
