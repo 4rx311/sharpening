@@ -1,13 +1,15 @@
 ﻿using WSSC.V4.SYS.DBFramework;
 
-namespace WSSC.V4.DMS.OMK.Controls.CustomerResponsibilityZoneControl
+//todo названия полей в константы
+
+namespace WSSC.V4.DMS.OMK.Controls.CustomerDepartment
 {
     /// <summary>
     /// Контрол отслеживает, занимает ли указанный в поле "адресат" должность "исполнительный директор" 
     /// </summary>
-    class ResponsibilityZoneControl : DBListFormWebControl
+    class CustomerDepartmentControl : DBListFormWebControl
     {
-        protected ResponsibilityZoneControl(DBListFormWebControlMetadata metadata, DBListFormControl listForm)
+        protected CustomerDepartmentControl(DBListFormWebControlMetadata metadata, DBListFormControl listForm)
             : base(metadata, listForm) { }
 
         /// <summary>
@@ -22,7 +24,7 @@ namespace WSSC.V4.DMS.OMK.Controls.CustomerResponsibilityZoneControl
             /// <param name="listForm">Форма элемента списка</param>
             protected override DBListFormWebControl CreateListFormWebControl(DBListFormWebControlMetadata metadata, DBListFormControl listform)
             {
-                return new ResponsibilityZoneControl(metadata, listform);
+                return new CustomerDepartmentControl(metadata, listform);
             }
         }
 
@@ -31,8 +33,14 @@ namespace WSSC.V4.DMS.OMK.Controls.CustomerResponsibilityZoneControl
         /// </summary>
         protected override void OnListFormInitCompleted()
         {
-            this.AppContext.ScriptManager.RegisterResource("GetResponsibilityZone.js", "/_layouts/WSS/WSSC.V4.DMS.OMK/Controls/CustomerResponsibilityZoneControl");
-            this.AddFieldChangeHandler("Заказчик", "OMK_GetResponsibilityZone");
+            // todo получить этап на сервере, если этап != Подготовка, то не регистрировать ресурсы.
+            var stage = this.Item.GetStringValue("Этап");
+            if (stage == "Подготовка")
+            {
+                // todo задать путь через VersionProvider.ModulePath.
+                this.AppContext.ScriptManager.RegisterResource("GetCustomerDepartment.js", "/_layouts/WSS/WSSC.V4.DMS.OMK/Controls/CustomerDepartmentControl");
+                this.AddFieldChangeHandler("Заказчик", "OMK_GetCustomerDepartment");
+            }
         }
     }
 }
