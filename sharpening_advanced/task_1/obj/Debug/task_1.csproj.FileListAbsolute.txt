@@ -4,3 +4,9 @@ C:\Users\dvladimirov\source\repos\GitHub\sharpening\sharpening_advanced\task_1\o
 C:\Users\dvladimirov\source\repos\GitHub\sharpening\sharpening_advanced\task_1\obj\Debug\task_1.csproj.CoreCompileInputs.cache
 C:\Users\dvladimirov\source\repos\GitHub\sharpening\sharpening_advanced\task_1\obj\Debug\task_1.exe
 C:\Users\dvladimirov\source\repos\GitHub\sharpening\sharpening_advanced\task_1\obj\Debug\task_1.pdb
+R:\repos\github\sharpening\sharpening_advanced\task_1\bin\Debug\task_1.exe
+R:\repos\github\sharpening\sharpening_advanced\task_1\bin\Debug\task_1.pdb
+R:\repos\github\sharpening\sharpening_advanced\task_1\obj\Debug\task_1.csprojAssemblyReference.cache
+R:\repos\github\sharpening\sharpening_advanced\task_1\obj\Debug\task_1.csproj.CoreCompileInputs.cache
+R:\repos\github\sharpening\sharpening_advanced\task_1\obj\Debug\task_1.exe
+R:\repos\github\sharpening\sharpening_advanced\task_1\obj\Debug\task_1.pdb

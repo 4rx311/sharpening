@@ -8,26 +8,19 @@ namespace task_3
     {
         static void Main(string[] args)
         {
-            //TxtManipulator text = new TxtManipulator(@"..\..\");
-            //text.DirInfo();
-            //text.CreateData("data.txt");
 
-            //Regex regex = new Regex(@"\d{3}-\d{3}-\d{4}");
+            MyDirectory dir = new MyDirectory("../../");
+            dir.FilesAmount();
 
+            MyFile file = new MyFile(dir.Path, "data.txt");
+            file.FileTextFiller();
+            Console.WriteLine("File initialized...");
+            Console.ReadKey();
 
-            ////if (directory.Exists)
-            ////{
-            ////    CreateData("data.txt");
+            dir.FilesAmount();
+            file.PrintFileData();
 
-            ////    public FileInfo[] files = directory.GetFiles("*.txt");
-
-            ////    FilesAmount(files);
-            ////    PrintFileData(directory + "data.txt");
-            ////}
-            ////else
-            ////{
-            ////    Console.WriteLine("Директория с именем: {0}  не найдена.", directory.FullName);
-            ////}
+            Regex regex = new Regex(@"\d{3}-\d{3}-\d{4}");
 
             Console.ReadKey();
         }
