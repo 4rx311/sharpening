@@ -1,12 +1,18 @@
 ﻿using System;
 using WSSC.V4.SYS.DBFramework;
 
+using Consts = WSSC.V4.DMS.OMK._Consts.Controls.InitiatorCompanyFilterControl;
+
 namespace WSSC.V4.DMS.OMK.Controls.CustomersFilter
 {
+    // + TODO [CR, Куклин Илья]: добавить комментарий к классу (такой же, как у конструктора).
+    /// <summary>
+    /// Контрол фильтрации пользователей в поле "Заказчик"
+    /// </summary>
     class InitiatorCompanyFilterControl : DBListFormWebControl
     {
         /// <summary>
-        /// Контрол фильтрации компаний пользователя
+        /// Контрол фильтрации пользователей в поле "Заказчик"
         /// </summary>
         protected InitiatorCompanyFilterControl(DBListFormWebControlMetadata metadata, DBListFormControl listForm)
             : base(metadata, listForm) { }
@@ -24,7 +30,7 @@ namespace WSSC.V4.DMS.OMK.Controls.CustomersFilter
         /// </summary>
         protected override void OnListFormInitCompleted()
         {
-            this.AppContext.ScriptManager.RegisterResource("Controls/CustomersFilter/InitiatorCompanyFilter.js", VersionProvider.ModulePath);
+            this.AppContext.ScriptManager.RegisterResource(Consts.SourseRef, VersionProvider.ModulePath);
         }
 
         /// <summary>
@@ -32,7 +38,7 @@ namespace WSSC.V4.DMS.OMK.Controls.CustomersFilter
         /// </summary>
         protected override string ClientInitHandler
         {
-            get { return "OMK_InitiatorCompanyFilter_Init"; }
+            get { return Consts.JSMethod; }
         }
     }
 }

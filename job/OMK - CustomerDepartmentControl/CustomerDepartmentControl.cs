@@ -1,14 +1,16 @@
 ﻿using WSSC.V4.SYS.DBFramework;
-
-//todo названия полей в константы
+using Consts = WSSC.V4.DMS.OMK._Consts.Controls.CustomerDepartmentControl;
 
 namespace WSSC.V4.DMS.OMK.Controls.CustomerDepartment
 {
     /// <summary>
-    /// Контрол отслеживает, занимает ли указанный в поле "адресат" должность "исполнительный директор" 
+    /// Контрол просматривает первого пользователя в поле "Заказчик" и проставляет поля "Подразделение заказчик" и "Зона ответственности" по условию.
     /// </summary>
     class CustomerDepartmentControl : DBListFormWebControl
     {
+        /// <summary>
+        /// Контрол просматривает первого пользователя в поле "Заказчик" и проставляет поля "Подразделение заказчик" и "Зона ответственности" по условию.
+        /// </summary>
         protected CustomerDepartmentControl(DBListFormWebControlMetadata metadata, DBListFormControl listForm)
             : base(metadata, listForm) { }
 
@@ -33,18 +35,15 @@ namespace WSSC.V4.DMS.OMK.Controls.CustomerDepartment
         /// </summary>
         protected override void OnListFormInitCompleted()
         {
-            // todo получить этап на сервере, если этап != Подготовка, то не регистрировать ресурсы.
-            var stage = this.Item.GetStringValue("Этап");
-            if (stage == "Подготовка")
+            string stage = this.Item.GetStringValue(Consts.FieldStage);
+            if (stage == Consts.StageValue)
             {
-                // todo задать путь через VersionProvider.ModulePath.
-                this.AppContext.ScriptManager.RegisterResource("GetCustomerDepartment.js", "/_layouts/WSS/WSSC.V4.DMS.OMK/Controls/CustomerDepartmentControl");
-                this.AddFieldChangeHandler("Заказчик", "OMK_GetCustomerDepartment");
+                this.AppContext.ScriptManager.RegisterResource(Consts.SourseRef, VersionProvider.ModulePath);
+                this.AddFieldChangeHandler(Consts.FieldSettingValue, Consts.JSMethod);
             }
         }
     }
 }
-
 
 
 

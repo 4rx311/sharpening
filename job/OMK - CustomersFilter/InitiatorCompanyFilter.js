@@ -1,8 +1,6 @@
 ﻿var OMK_CustomersFilter_Consts = {
     fieldInitiator: "Инициатор",
-    fieldCustomer: "Заказчик",
-    fieldCustomerAdd: "Заказчик (предлагаемое значение)",
-    UserIDParam: "initiatorID"
+    fieldCustomer: "Заказчик"
 };
 
 /// фильтрация компаний пользователя
