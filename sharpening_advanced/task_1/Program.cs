@@ -108,6 +108,8 @@ namespace task_1
             Console.WriteLine(new string('*', 20));
             Console.Write("End of program...");
             System.Threading.Thread.Sleep(1000);
+
+            Console.ReadKey();
         }
     }
 }
