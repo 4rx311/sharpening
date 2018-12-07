@@ -1,7 +1,0 @@
-C:\Users\dvladimirov\source\repos\GitHub\sharpening\task3\task3\bin\Debug\task3.exe
-C:\Users\dvladimirov\source\repos\GitHub\sharpening\task3\task3\bin\Debug\task3.pdb
-C:\Users\dvladimirov\source\repos\GitHub\sharpening\task3\task3\obj\Debug\InputOutput.csprojAssemblyReference.cache
-C:\Users\dvladimirov\source\repos\GitHub\sharpening\task3\task3\obj\Debug\InputOutput.csproj.CoreCompileInputs.cache
-C:\Users\dvladimirov\source\repos\GitHub\sharpening\task3\task3\obj\Debug\task3.exe
-C:\Users\dvladimirov\source\repos\GitHub\sharpening\task3\task3\obj\Debug\task3.pdb
-C:\Users\dvladimirov\source\repos\GitHub\sharpening\task3\task3\bin\Debug\task3.exe.config
