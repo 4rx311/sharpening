@@ -1,0 +1,15 @@
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\bin\Debug\StopWatch.exe.config
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\bin\Debug\StopWatch.exe
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\bin\Debug\StopWatch.pdb
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch.csprojAssemblyReference.cache
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\MainWindow.g.cs
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\App.g.cs
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch_MarkupCompile.cache
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch_MarkupCompile.lref
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\MainWindow.baml
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch.g.resources
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch.Properties.Resources.resources
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.GenerateResource.cache
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch.csproj.CoreCompileInputs.cache
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch.exe
+C:\Users\dvladimirov\source\repos\StopWatch\StopWatch\obj\Debug\StopWatch.pdb

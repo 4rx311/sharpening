@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Regular</title>
+
+    <!--    4.	Написать функцию, которая при помощи регулярных выражений разбивает текст на отдельные слова и находит частоту встречаемости отдельных слов.-->
+
+</head>
+<body>
+    <script>
+        var str = "Отрицанием предиката A(x) называется новый предикат C(x), который принимает значение истина при всех значениях x из заданного множества, при которых предикат A(x) принимает значение ложь, и принимает значение ложь, если A(x) принимает значение истина.";
+
+        //function chop (str) {
+        //    str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+
+        //    var chopped = str.split(" ");
+
+        //    for (i = 0; i < chopped.length; i++) {
+        //        var count = 0;
+        //        if (chopped[i].m)
+
+
+        //        //document.write("<br>" + chopped[i] + "</br>");
+        //    }
+        //    //var matches = str.match(/люб/ig);
+        //    //document.write("<br>" + "Количество корней ЛЮБ  - " + matches.length + "</br>");
+        //}
+
+        function words(str) {
+            str = str.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, "");
+
+            return str.split(" ").reduce(function (count, word) {
+                count[word] = count.hasOwnProperty(word) ? count[word] + 1 : 1;
+
+                return count;
+            }, {});
+        }
+
+        window.onload = function () {
+            var obj = words(str);
+            document.getElementById('result').innerHTML = JSON.stringify(obj);
+        }
+
+
+    </script>
+
+    <!--<a class="chop" href="javascript://" onclick="prin()">CHOP</a>-->
+    <p id="result" /> 
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Timer</title>
+
+    <!-- 3. Сделать вывод текущего времени по таймеру в углу страницы. -->
+
+</head>
+<body>
+    <style type="text/css">
+        #timer {
+            float: right;
+            margin: 0 0 5px 5px;
+            color: black;
+            font-family: "proxima nova";
+            font-weight: 100;
+            font-size: 17px;
+            text-align: center;
+            border: solid 3px yellow;
+            border-radius: 50px;
+            padding: 10px 40px;
+            transition-duration: 200ms;
+        }
+    </style>
+
+    <p id="timer"></p>
+    <script>
+        setInterval(
+            function () {
+                var tim = new Date(); with (tim)
+                document.getElementById('timer').innerHTML =
+                    'Текущее время ' + [getHours(), getMinutes(), getSeconds()].join(':');
+            },
+            1000);
+    </script>
+
+</body>
+</html>

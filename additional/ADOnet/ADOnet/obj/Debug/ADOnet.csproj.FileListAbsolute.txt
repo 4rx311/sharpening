@@ -1,0 +1,11 @@
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\bin\Debug\ADOnet.exe.config
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\bin\Debug\ADOnet.exe
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\bin\Debug\ADOnet.pdb
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\obj\Debug\ADOnet.csprojAssemblyReference.cache
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\obj\Debug\ADOnet.csproj.CoreCompileInputs.cache
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\obj\Debug\ADOnet.exe
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\obj\Debug\ADOnet.pdb
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\bin\Debug\WSSC.V4.SYS.DBFramework.dll
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\bin\Debug\WSSC.V4.SYS.DBFramework.xml
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\obj\Debug\ADOnet.exe.config
+C:\Users\dvladimirov\source\repos\ADOnet\ADOnet\obj\Debug\ADOnet.csproj.CopyComplete

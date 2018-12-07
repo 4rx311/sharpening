@@ -1,0 +1,327 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+    .wrapper .logo {
+        width: 110px;
+        height: 100ps;
+        position: absolute;
+        margin-left: 55px;
+        margin-top: -25px;
+    }
+    .wrapper p.caption {
+        position: absolute;
+        margin-left: 255px;
+        margin-top: 42px;
+
+        font-family: Georgia, serif;
+        font-size: 35px;
+        letter-spacing: 1.2px;
+        word-spacing: 2.2px;
+        color: #fff;
+        font-weight: 700;
+        text-decoration: none solid rgb(68, 68, 68);
+        font-style: italic;
+        font-variant: normal;
+        text-transform: capitalize;
+    }
+    .wrapper a {
+        text-decoration: inherit;
+    }
+    .wrapper .button {
+        color: yellow;
+        font-family: "proxima nova";
+        font-weight: 100;
+        font-size: 17px;
+        text-align: center;
+        border: solid 2px yellow;
+        border-radius: 50px;
+        padding: 10px 40px;
+        transition-duration: 200ms;
+    }
+    .wrapper .button:hover {
+        background-color: yellow;
+        color: rgb(68, 68, 68)
+    }
+
+    .wrapper .button-home {
+        position: absolute;
+        margin-left: 670px;
+        margin-top: 29px;
+    }
+    .wrapper .button-about {
+        position: absolute;
+        margin-left: 820px;
+        margin-top: 29px;
+    }
+    /* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: 100px;
+    background: rgb(68, 68, 68);
+}
+
+
+/* Info
+-----------------------------------------------------------------------------*/
+.infoPan .image {
+    width: 25%;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+.infoPan p.name {
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 60px;
+
+    font-family: Georgia, serif;
+    font-size: 29px;
+    letter-spacing: 1.2px;
+    word-spacing: 2.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+.infoPan p.price {
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 115px;
+    font-family: Georgia, serif;
+    font-size: 35px;
+    letter-spacing: 1.2px;
+    word-spacing: 2.2px;
+    color: red;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: normal;
+    text-transform: capitalize;
+}
+
+.infoPan p.description {
+    width: 50%;
+    position: absolute;
+    margin-top: 365px;
+}
+
+
+.infoPan a {
+    text-decoration: inherit;
+}
+
+.infoPan .ibutton-back {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 490px;
+
+    color: rgb(68, 68, 68);
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+    border: solid 2px rgb(68, 68, 68);
+    border-radius: 50px;
+    padding: 10px 40px;
+    transition-duration: 200ms;
+}
+
+.infoPan .ibutton-buy {
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 180px;
+
+    color: rgb(68, 68, 68);
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 17px;
+    text-align: center;
+    border: solid 2px rgb(68, 68, 68);
+    border-radius: 80px;
+    padding: 10px 110px;
+    transition-duration: 200ms;
+}
+.infoPan .ibutton-back:hover {
+    background-color: yellow;
+    color: rgb(68, 68, 68)
+}
+.infoPan .ibutton-buy:hover {
+    background-color: red;
+    color: white;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.leftPan {
+    width: 114px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 45px;
+    color: Yellow;
+}
+
+    .leftPan h2 {
+        width: 114px;
+        height: 44px;
+        background: #fff;
+        color: rgb(68, 68, 68);
+        font-size: 23px;
+        line-height: 34px;
+    }
+
+    .leftPan ul {
+        width: 114px;
+    }
+
+        .leftPan ul li {
+            width: 114px;
+            height: 24px;
+        }
+
+            .leftPan ul li a {
+                width: 102px;
+                height: 24px;
+                display: block;
+                color: #5F7A77;
+                text-decoration: none;
+                line-height: 24px;
+                padding: 0 0 0 12px;
+            }
+
+                .leftPan ul li a:hover {
+                    color: black;
+                    text-decoration: none;
+
+                }
+
+
+/* Right Panel
+-----------------------------------------------------------------------------*/
+
+.rightPan {
+    width: 341px;
+    float: left;
+    border-left: 2px solid #5F7A77;
+    margin: 28px 0 0;
+    padding: 0 30px;
+    margin-left: 20px;
+}
+
+                th {
+                        height: 180px;
+                        width:100%;
+                    }
+                .rightPan h3 {
+                    width: 114px;
+                    height: 44px;
+                    background: #fff;
+                    color: rgb(68, 68, 68);
+                    font-size: 18px;
+                    line-height: 34px;
+                }
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footermainPan {
+    height: 103px;
+    background: url(images/footerbg.gif) 0 0 repeat-x #D3F0F0;
+    color: #2F5958;
+    font: 13px/20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 0 auto;
+    clear: both;
+    padding: 36px 0 0;
+}
+
+#footerPan {
+    width: 778px;
+    position: relative;
+    margin: 0 auto;
+}
+
+    #footerPan ul {
+        width: 608px;
+        height: 20px;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    #footerPan li {
+        float: left;
+    }
+
+    #footerPan ul li a {
+        padding: 0 10px 0;
+        color: #2F5958;
+        background: #EBF8F7;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+        #footerPan ul li a:hover {
+            text-decoration: underline;
+        }
+
+    #footerPan p.copyright {
+        width: 250px;
+        margin: 10px 0 0 92px;
+    }
+
+    #footerPan ul.templateworld {
+        width: 250px;
+        background: #D3F0F0;
+        color: #007163;
+        display: block;
+        font-size: 10px;
+        position: absolute;
+        top: 49px;
+        left: 92px;
+    }

@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>prototype</title>
+
+    <!--    6.	Через прототип расширьте встроенный объект Number методом isOdd(), который возвращает true, если число нечетное.-->
+
+</head>
+<body>
+    <script>
+
+        //function is_Odd(num) {
+        //    var result = this.num % 2 == 0 ? true : false;
+        //    return result
+        //}
+
+        function Number(num) {
+            this.number = num;
+        }
+
+        Number.prototype.isOdd = function () {
+            var result = this.number % 2 == 0 ? true : false;
+            return result;
+        }
+
+        var num1 = new Number(4);
+        var num2 = new Number(5);
+
+        document.write("<br>" + num1.isOdd() + "</br>");
+        document.write("<br>" + num2.isOdd() + "</br>");
+    </script>
+</body>
+</html>
