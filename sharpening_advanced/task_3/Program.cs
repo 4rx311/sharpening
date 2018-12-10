@@ -15,16 +15,6 @@ namespace task_3
 
             xml.LoadDictionaryFromTXT(file.File.FullName);
 
-
-            //System.Console.WriteLine("Contents = ");
-            //foreach (string line in txtLines)
-            //{
-            //    // Use a tab to indent each line of the file.
-            //    Console.WriteLine(TelRegex(line));
-            //}
-
-
-
             Console.WriteLine("End of program...");
             Console.ReadKey();
         }
