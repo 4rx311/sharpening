@@ -6,6 +6,9 @@ using System.Text;
 
 namespace task_3
 {
+    /// <summary>
+    /// Класс создания и заполнения информацией .txt файла.
+    /// </summary>
     class MyFile
     {
         #region Properies
@@ -24,14 +27,14 @@ namespace task_3
         /// <summary>
         /// Инициализация файла (Lazy propery).
         /// </summary>
-        private FileInfo File
+        public FileInfo File
         {
             get
             {
                 if (!__init_File)
                 {
                     _File = new FileInfo(this.FilePath + this.FileName);
-                    if (_File == null) throw new Exception("файл не проинициализирован");
+                    if (_File == null) throw new Exception("Файл не проинициализирован.");
                     __init_File = true;
                 }
                 return _File;
@@ -93,6 +96,12 @@ namespace task_3
 
             reader.Close();
         }
+
+        /// <summary>
+        /// Возвращет массив строк, прочитанных из .txt файла
+        /// </summary>
+        /// <returns>массив строк</returns>
+        
 
         /// <summary>
         /// Коснтруктор.

@@ -43,10 +43,12 @@
   <ItemGroup>
     <Compile Include="MyDirectory.cs" />
     <Compile Include="MyFile.cs" />
+    <Compile Include="MyXML.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data.txt" />
     <Content Include="tasks.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

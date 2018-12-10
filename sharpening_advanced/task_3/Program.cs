@@ -8,31 +8,27 @@ namespace task_3
     {
         static void Main(string[] args)
         {
+            // Init
+            MyDirectory dir = new MyDirectory("../../");
+            MyFile file = new MyFile(dir.Path, "data.txt");
+            MyXML xml = new MyXML();
 
-            //MyDirectory dir = new MyDirectory("../../");
-            //dir.FilesAmount();
+            xml.LoadDictionaryFromTXT(file.File.FullName);
 
-            //MyFile file = new MyFile(dir.Path, "data.txt");
-            //file.FileTextFiller();
-            //Console.WriteLine("File initialized...");
-            //Console.ReadKey();
 
-            //dir.FilesAmount();
-            //file.PrintFileData();
+            //System.Console.WriteLine("Contents = ");
+            //foreach (string line in txtLines)
+            //{
+            //    // Use a tab to indent each line of the file.
+            //    Console.WriteLine(TelRegex(line));
+            //}
 
-            string input = "Отдел документационного обеспечения 8(499) 245-06-12";
-            string pattern = @"\d{1}[(]\d{3}[)] \d{3}-\d{2}-\d{2}";
-            Regex regex = new Regex(pattern);
 
-            MatchCollection matches = regex.Matches(input);
-            if (matches.Count > 0)
-            {
-                foreach (Match match in matches)
-                    Console.WriteLine(match.Value);
-            }
 
             Console.WriteLine("End of program...");
             Console.ReadKey();
         }
+
+
     }
 }

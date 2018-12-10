@@ -6,6 +6,9 @@ using System.Text;
 
 namespace task_3
 {
+    /// <summary>
+    /// Класс работы с указанной директорией.
+    /// </summary>
     class MyDirectory
     {
         #region Properties
@@ -52,7 +55,7 @@ namespace task_3
         #endregion
 
         /// <summary>
-        /// Коснтруктор. (..\..\)
+        /// Коснтруктор (директория программы - "..\..\").
         /// </summary>
         /// <param name="path"></param>
         public MyDirectory(string path)
