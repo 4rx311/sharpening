@@ -41,12 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyDirectory.cs" />
+    <Compile Include="MyFile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TxtManipulator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="tasks.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
