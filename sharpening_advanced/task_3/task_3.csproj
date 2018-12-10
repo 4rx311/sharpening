@@ -49,8 +49,5 @@
   <ItemGroup>
     <Content Include="tasks.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="data" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
