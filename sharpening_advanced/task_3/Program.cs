@@ -11,14 +11,11 @@ namespace task_3
             // Init
             MyDirectory dir = new MyDirectory("../../");
             MyFile file = new MyFile(dir.Path, "data.txt");
-            MyXML xml = new MyXML();
-
-            xml.LoadDictionaryFromTXT(file.File.FullName);
+            MyXML xml = new MyXML(dir.Path, "MyContacts", file.File.Name);
+            xml.WriteData();
 
             Console.WriteLine("End of program...");
             Console.ReadKey();
         }
-
-
     }
 }
