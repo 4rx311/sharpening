@@ -21,6 +21,27 @@ namespace task_3
         /// </summary>
         public string FilePath { get; set; }
 
+        private bool __init_xDoc = false;
+        public XmlDocument _xDoc = new XmlDocument();
+        /// <summary>
+        /// XML документ.
+        /// </summary>
+        public XmlDocument xDoc
+        {
+            get
+            {
+                if (!__init_xDoc)
+                {
+                    _xDoc.Load(this.FilePath + this.FileName);
+                    if (_xDoc == null)
+                        throw new Exception("Не удалось получить XmlDocument.");
+
+                    __init_xDoc = true;
+                }
+                return _xDoc;
+            }
+        }
+
         /// <summary>
         /// Наименование XML файла.
         /// </summary>
@@ -77,22 +98,18 @@ namespace task_3
         /// </summary>
         public void WriteData()
         {
-            // получаем xml документ
-            XmlDocument xDoc = new XmlDocument();
-            xDoc.Load(this.FilePath+this.FileName);
-
             // обращаемся к корневому узлу <MyContacts>
-            XmlElement root = xDoc.DocumentElement;
+            XmlElement root = this.xDoc.DocumentElement;
             
             // переносим данные из словаря в XML файл.
             foreach (KeyValuePair<string, string> record in this.Dictionary)
             {
-                XmlElement Contact = xDoc.CreateElement("Contact");
+                XmlElement Contact = this.xDoc.CreateElement("Contact");
                 Contact.SetAttribute("Name", record.Key);
                 Contact.SetAttribute("TelNumber", record.Value);
                 root.AppendChild(Contact);
             }
-            xDoc.Save(this.FilePath+this.FileName);
+            this.xDoc.Save(this.FilePath+this.FileName);
         }
 
         /// <summary>
@@ -100,10 +117,6 @@ namespace task_3
         /// </summary>
         public void PrintFileData()
         {
-            // получаем xml документ
-            XmlDocument xDoc = new XmlDocument();
-            xDoc.Load(this.FilePath + this.FileName);
-
             Console.WriteLine($"Содержимое файла {this.FileName}:\n");
             foreach (XmlNode node in xDoc.DocumentElement.ChildNodes)
             {
@@ -113,6 +126,21 @@ namespace task_3
                 Console.WriteLine($"Name: {name} \n TelNumber: {telNum}");
             }
             Console.WriteLine();
+        }
+
+        public void SearchByName(string TelNumber)
+        {
+            //TelNumber = "8(495) 708-33-94"
+            List<string> result = new List<string>();
+
+            XElement root = XElement.Load(this.FilePath + this.FileName);
+            IEnumerable<XElement> contactList =
+                from elem in root.Descendants("Contact")
+                where (string)elem.Attribute("Name") == TelNumber
+                select elem;
+            foreach (XElement elem in contactList)
+                Console.WriteLine(elem);
+                //result.Add(contact.Attributes["TelNumber"]?.InnerText);
         }
 
         // TODO: Доделать поиск по XML

@@ -13,6 +13,7 @@ namespace task_3
             MyFile file = new MyFile(dir.Path, "data.txt");
             MyXML xml = new MyXML(dir.Path, "MyContacts", file.File.Name);
             xml.WriteData();
+            xml.SearchByName("8(495) 708-33-94");
 
             Console.WriteLine("End of program...");
             Console.ReadKey();
