@@ -1,0 +1,399 @@
+.dbf_errorpanel {
+	padding: 3px; border: 1px solid rgb(255, 223, 136); border-image: none; font-family: Tahoma; font-size: 10pt; display: inline-block; position: relative; min-height: 16px; min-width: 16px; background-color: rgb(255, 249, 222);
+}
+.dbf_errorpanel_noTitle div.message {
+	margin-top: 16px;
+}
+.dbf_errorpanel_noMessage div.attention {
+	cursor: default;
+}
+.dbf_errorpanel_defaultOpened div.message {
+	display: block;
+}
+.dbf_errorpanel .attention {
+	background: url("/_layouts/images/exclaim.gif") no-repeat; left: 3px; top: 3px; width: 16px; height: 16px; position: absolute; cursor: pointer;
+}
+.dbf_errorpanel .title {
+	margin-left: 19px; cursor: default; min-height: 16px;
+}
+.dbf_errorpanel .message {
+	display: none;
+}
+body {
+	margin: 0px;
+}
+.dbf_mainMenu_table {
+	width: 100%;
+}
+.dbf_mainMenu_header {
+	background: url("/_layouts/WSS/DBF/UI/Images/bg_header.png") repeat-x left top; height: 50px;
+}
+.dbf_mainMenu_tdLeft {
+	text-align: left; padding-left: 15px; vertical-align: middle; white-space: nowrap;
+}
+.dbf_mainMenu_tdRight {
+	text-align: right; padding-right: 15px; padding-left: 15px; vertical-align: middle; white-space: nowrap;
+}
+.dbf_mainMenu_tbl {
+	float: right;
+}
+.dbf_mainMenu_font {
+	color: rgb(255, 255, 255); font-family: Arial; font-size: 14px;
+}
+.dbf_mainMenu_tdRightTitle div {
+	margin-left: 30px;
+}
+.dbf_mainMenu_tdCurrentUserPic {
+	padding-left: 30px;
+}
+.dbf_mainMenu_tdCurrentUser {
+	padding-left: 30px;
+}
+.dbf_mainMenu_imgCurrentUser {
+	margin-bottom: -1px; cursor: pointer;
+}
+.dbf_settingsInfoHolder {
+	padding-bottom: 5px;
+}
+a.dbf_mainMenu_userLink {
+	background: url("/_layouts/WSS/DBF/UI/Images/userpic.png") no-repeat 0px 0px; height: 0px; color: rgb(255, 255, 255); font-family: Arial; font-size: 11px; text-decoration: none;
+}
+a.dbf_mainMenu_userLink:visited {
+	background: url("/_layouts/WSS/DBF/UI/Images/userpic.png") no-repeat 0px 0px; height: 0px; color: rgb(255, 255, 255); font-family: Arial; font-size: 11px; text-decoration: none;
+}
+a.dbf_mainMenu_userLink:hover {
+	text-decoration: underline;
+}
+.dbf_mainContent {
+	padding: 15px;
+}
+.dbf_info .dbf_errorpanel {
+	margin-bottom: 15px;
+}
+.dbf_table_links td {
+	font-family: Tahoma; font-size: 8pt; vertical-align: top;
+}
+.dbf_tdrect {
+	padding-top: 4px; padding-right: 5px;
+}
+.dbf_tdlink {
+	padding-top: 6px;
+}
+.dbf_font {
+	font-family: Tahoma; font-size: 8pt;
+}
+.dbf_font_big {
+	font-family: Tahoma; font-size: 10pt;
+}
+a.dbf_link {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}
+a.dbf_link:visited {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}
+a.dbf_link:hover {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+a.dbf_link_line {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+a.dbf_link_line:visited {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+a.dbf_link_line:hover {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}
+a.dbf_link_big {
+	color: rgb(0, 51, 153); font-family: Tahoma; font-size: 10pt; text-decoration: none;
+}
+a.dbf_link_big:visited {
+	color: rgb(0, 51, 153); font-family: Tahoma; font-size: 10pt; text-decoration: none;
+}
+a.dbf_link_big:hover {
+	color: rgb(0, 0, 0); font-family: Tahoma; font-size: 10pt; text-decoration: underline;
+}
+.dbf_toolbar {
+	background: url("/_layouts/images/toolgrad.gif") repeat-x top rgb(215, 232, 255); border: 1px solid rgb(131, 176, 236); border-image: none; width: 100%;
+}
+.dbf_toolbar td {
+	padding-top: 2px; padding-bottom: 2px; vertical-align: top; white-space: nowrap;
+}
+.dbf_tdtoolbar_image {
+	padding-right: 3px;
+}
+.dbf_tdtoolbar_link {
+	padding-top: 1px !important;
+}
+.dbf_tdtoolbar_separator {
+	color: rgb(131, 176, 236); padding-right: 8px; padding-left: 8px;
+}
+a.dbf_toolbarLink:hover {
+	color: rgb(0, 55, 152); font-family: Verdana; font-size: 8pt; text-decoration: underline !important;
+}
+a.dbf_toolbarLink {
+	color: rgb(0, 55, 152); font-family: Verdana; font-size: 8pt; text-decoration: none;
+}
+a.dbf_toolbarLink:visited {
+	color: rgb(0, 55, 152); font-family: Verdana; font-size: 8pt; text-decoration: none;
+}
+a.dbf_toolbarLink_disabled:hover {
+	color: rgb(128, 128, 128); font-family: Verdana; font-size: 8pt; text-decoration: underline !important;
+}
+a.dbf_toolbarLink_disabled {
+	color: rgb(128, 128, 128); font-family: Verdana; font-size: 8pt; text-decoration: none;
+}
+a.dbf_toolbarLink_disabled:visited {
+	color: rgb(128, 128, 128); font-family: Verdana; font-size: 8pt; text-decoration: none;
+}
+.dbf_imgDelete_disabled {
+	opacity: 0.3; -moz-opacity: .3;
+}
+.dbf_description {
+	color: rgb(76, 76, 76); padding-top: 4px; padding-bottom: 4px; font-family: Tahoma; font-size: 8pt;
+}
+.dbf_description_bold {
+	color: rgb(0, 0, 0); padding-top: 4px; padding-bottom: 4px; font-family: Tahoma; font-size: 8pt; font-weight: 700;
+}
+.dbf_grid {
+	width: 100%; border-bottom-color: rgb(142, 187, 245); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dbf_grid td {
+	padding: 3px 8px 4px; color: rgb(0, 0, 0); font-family: Tahoma; font-size: 8pt; vertical-align: top;
+}
+.dbf_tdgrid_header {
+	color: rgb(76, 76, 76) !important; font-family: Tahoma; font-size: 8pt; white-space: nowrap; background-image: url("/_layouts/images/viewheadergrad.gif"); background-repeat: repeat-x; background-color: rgb(242, 242, 242);
+}
+.dbf_trgrid_alternate {
+	background-color: rgb(249, 249, 249);
+}
+.dbf_grid_footer {
+	padding: 0px !important; height: 2px !important;
+}
+.dbf_pageTitle {
+	width: 100%;
+}
+.dbf_pageTitle td {
+	color: rgb(0, 0, 0); padding-right: 8px; padding-left: 150px; font-family: Verdana; font-size: 16pt; vertical-align: top; white-space: nowrap;
+}
+a.dbf_pageTitle_link {
+	color: rgb(255, 255, 255) !important; font-family: Arial; font-size: 14px; text-decoration: underline;
+}
+a.dbf_pageTitle_link:visited {
+	color: rgb(255, 255, 255) !important; font-family: Arial; font-size: 14px; text-decoration: underline;
+}
+a.dbf_pageTitle_link:hover {
+	color: rgb(255, 255, 255) !important; font-family: Arial; font-size: 14px; text-decoration: none !important;
+}
+.dbf_settingsInfo {
+	border: 0px currentColor; border-image: none; width: 100%; background-image: url("/_layouts/images/settingsgraphic.jpg"); background-repeat: repeat-x;
+}
+.dbf_settingsInfo_divInfo {
+	padding-top: 15px; padding-bottom: 15px; padding-left: 15px;
+}
+.dbf_settingsInfo_header {
+	color: rgb(0, 0, 0); padding-bottom: 10px; font-family: Tahoma; font-size: 8pt !important; font-weight: 700;
+}
+.dbf_settingsInfo_headerTitle {
+	width: 230px; color: rgb(32, 77, 137); padding-bottom: 8px; font-family: Verdana; font-size: 8pt; vertical-align: top;
+}
+.dbf_settingsInfo_headerValue {
+	color: rgb(0, 0, 0); font-family: Tahoma; font-size: 8pt; vertical-align: top;
+}
+.dbf_settingsInfo_attention {
+	color: rgb(255, 112, 0); font-family: Tahoma; font-size: 8pt; vertical-align: top;
+}
+.dbf_settingsInfo_sectionHeader {
+	padding: 4px; border: 1px solid rgb(173, 209, 255); border-image: none; color: rgb(0, 0, 0); font-family: Tahoma; font-size: 8pt; font-weight: 700; background-image: url("/_layouts/images/linksectiongrad.gif"); background-repeat: repeat-x;
+}
+a.dbf_settingsInfo_linkOperation {
+	color: rgb(57, 102, 191); font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}
+a.dbf_settingsInfo_linkOperation:visited {
+	color: rgb(57, 102, 191); font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}
+a.dbf_settingsInfo_linkOperation:hover {
+	color: rgb(0, 0, 0); font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+a.dbf_settingsInfo_linkOperation_safety {
+	color: green; font-family: Tahoma; font-size: 11px; text-decoration: none;
+}
+a.dbf_settingsInfo_linkOperation_safety:visited {
+	color: green; font-family: Tahoma; font-size: 11px; text-decoration: none;
+}
+a.dbf_settingsInfo_linkOperation_safety:hover {
+	text-decoration: underline;
+}
+a.dbf_settingsInfo_linkOperation_dangerous:hover {
+	text-decoration: underline;
+}
+a.dbf_settingsInfo_linkOperation_dangerous {
+	color: red; font-family: Tahoma; font-size: 11px; text-decoration: none;
+}
+a.dbf_settingsInfo_linkOperation_dangerous:visited {
+	color: red; font-family: Tahoma; font-size: 11px; text-decoration: none;
+}
+.dbf_edit_sectionline {
+	padding: 0px !important; height: 1px !important; background-color: rgb(217, 217, 217);
+}
+.dbf_edit_sectionTitle {
+	color: rgb(82, 82, 82); padding-right: 10px; font-family: Tahoma; font-size: 8pt; font-weight: 700;
+}
+.dbf_edit_sectionDescription {
+	color: rgb(76, 76, 76); padding-right: 10px; font-family: Tahoma; font-size: 8pt;
+}
+.dbf_edit_section {
+	padding: 10px 20px 10px 10px; width: 400px; text-align: left; vertical-align: top; background-color: rgb(235, 243, 255);
+}
+.dbf_edit_Button {
+	width: 11.5em; height: 2.1em; font-family: Tahoma; font-size: 8pt;
+}
+.dbf_edit_textBox {
+	width: 220px; font-family: Tahoma; font-size: 8pt;
+}
+.dbf_edit_textBox_small {
+	width: 100px; font-family: Tahoma; font-size: 8pt;
+}
+.dbf_edit_intBox {
+	width: 100px; font-family: Tahoma; font-size: 8pt;
+}
+.dbf_edit_intBox_small {
+	width: 50px; font-family: Tahoma; font-size: 8pt;
+}
+.dbf_edit_optionTitle {
+	color: rgb(82, 82, 82); padding-top: 10px; font-family: Tahoma; font-size: 8pt;
+}
+.dbf_edit_optionFont {
+	color: rgb(82, 82, 82); font-family: Tahoma; font-size: 8pt;
+}
+.dbf_edit_optionOffset {
+	padding-top: 3px; padding-left: 10px;
+}
+.dbf_assemblyName {
+	color: rgb(48, 48, 48); font-family: Tahoma; font-size: 11px; margin-top: 10px;
+}
+.dbf_divTypes_grouped {
+	color: rgb(82, 82, 82); padding-left: 20px; font-family: Tahoma; font-size: 11px;
+}
+.dbf_divTypes {
+	color: rgb(82, 82, 82); font-family: Tahoma; font-size: 11px;
+}
+.dbf_divTypesTitle {
+	float: left;
+}
+.dbf_divChangeTypesDisplayMode {
+	padding-left: 30px; float: left;
+}
+.dbf_InformerControl {
+	border: 1px solid rgb(255, 223, 136); border-image: none; margin-bottom: 10px; background-color: rgb(255, 249, 222);
+}
+.dbf_InformerControl td {
+	padding: 3px; font-family: Tahoma; font-size: 10pt;
+}
+.dbf_toolbar_listView {
+	background: url("/_layouts/images/toolgrad.gif") repeat-x top rgb(215, 232, 255); border: 1px solid rgb(131, 176, 236); border-image: none; width: 100%;
+}
+.dbf_toolbar_listView td {
+	height: 19px; vertical-align: top; white-space: nowrap;
+}
+.dbf_tdtoolbar_image_listView {
+	padding-right: 3px;
+}
+.dbf_tdtoolbar_link_listView {
+	padding-top: 3px !important;
+}
+.dbf_tdtoolbar_separator_listView {
+	color: rgb(131, 176, 236); padding-top: 5px !important; padding-right: 8px; padding-left: 8px;
+}
+.dbf_editOrder_cell {
+	padding: 1px 0px; color: rgb(76, 76, 76); font-family: Tahoma; font-size: 8pt; border-bottom-color: rgb(217, 217, 217); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dbf_editOrder_header {
+	color: rgb(82, 82, 82); padding-top: 5px; padding-bottom: 5px; font-family: Tahoma; font-size: 8pt; font-weight: bold;
+}
+.dbf_editOrder_table {
+	width: 100%; border-collapse: collapse;
+}
+.dbf_editOrder_table_nowrap {
+	width: 100%; border-collapse: collapse;
+}
+.dbf_editOrder_table_nowrap td {
+	padding-right: 20px; white-space: nowrap;
+}
+.er_container {
+	width: 100%; vertical-align: middle;
+}
+.er_root {
+	border: 1px solid rgb(227, 232, 238); border-image: none; left: 50%; width: 600px; height: 300px; margin-top: 120px; margin-left: -300px; position: relative; background-color: rgb(250, 252, 255);
+}
+.er_tbContent {
+	width: 100%;
+}
+.er_tdImage {
+	padding: 25px; vertical-align: top;
+}
+.er_tdContent {
+	width: 100%; text-align: left; padding-top: 40px; vertical-align: top;
+}
+.er_content {
+	color: rgb(0, 55, 89); font-family: Tahoma; font-size: 10pt;
+}
+.er_tdClose {
+	padding: 3px 10px 10px; vertical-align: top;
+}
+a.er_link {
+	color: rgb(0, 114, 188); font-family: Tahoma; font-size: 10pt; text-decoration: underline;
+}
+a.er_link:visited {
+	color: rgb(0, 114, 188); font-family: Tahoma; font-size: 10pt; text-decoration: underline;
+}
+a.er_link:hover {
+	color: rgb(0, 0, 0); font-family: Tahoma; font-size: 10pt; text-decoration: none;
+}
+.dbf_orderEdit {
+	font-family: Tahoma; font-size: 8pt;
+}
+.dbf_lvEdit_sortHeader {
+	color: rgb(82, 82, 82); font-family: Tahoma; font-size: 8pt; font-weight: 700;
+}
+.dbf_lvEdit_tdSortSection {
+	padding-top: 10px;
+}
+.dbf_lvEdit_groupHeader {
+	color: rgb(82, 82, 82); font-family: Tahoma; font-size: 8pt; font-weight: 700;
+}
+.dbf_lvEdit_tdGroupSection {
+	padding-top: 10px;
+}
+.dbf_lv_viewTitleCell {
+	color: rgb(0, 51, 153); padding-top: 6px; font-family: Verdana; font-size: 8pt;
+}
+.dbf_lv_viewSelectCell {
+	padding-top: 4px; padding-right: 5px; padding-left: 5px;
+}
+.lv_viewSelect {
+	color: rgb(0, 51, 153); font-family: Verdana; font-size: 8pt;
+}
+.lv_tbfilterActions td {
+	height: auto !important;
+}
+.dbf_listNameCell {
+	width: 0px; padding-right: 50px !important; white-space: nowrap;
+}
+.dbf_lf_markupControl {
+	padding-top: 12px; clear: both; font-family: Tahoma; font-size: 12px; font-weight: 700;
+}
+.dbf_lf_greenDescription {
+	color: green; padding-right: 15px; padding-bottom: 3px; font-family: Tahoma; font-size: 11px; float: left;
+}
+.dbf_lf_orangeDescription {
+	color: rgb(255, 112, 0); padding-right: 15px; padding-bottom: 3px; font-family: Tahoma; font-size: 11px; float: left;
+}
+.dbf_lf_redDescription {
+	color: red; padding-right: 15px; padding-bottom: 3px; font-family: Tahoma; font-size: 11px; float: left;
+}
+.div_lf_showHideLists {
+	margin-top: -3px; float: left;
+}
+.dbf_sizeLabel {
+	font-family: Tahoma; font-size: 11px; display: inline-block;
+}

@@ -1,0 +1,234 @@
+.dbf_body {
+	background-position: center -100px; margin: 0px !important; background-image: url("/_layouts/WSS/DBF/ListForm/Background/bg.png"); background-repeat: no-repeat; background-color: rgb(127, 164, 191);
+}
+.bg_top_left {
+	background-image: url("/_layouts/WSS/DBF/ListForm/Background/top_left.png"); background-repeat: no-repeat;
+}
+.bg_top_mid {
+	background-image: url("/_layouts/WSS/DBF/ListForm/Background/top_mid.png"); background-repeat: repeat-x;
+}
+.bg_top_right {
+	background-image: url("/_layouts/WSS/DBF/ListForm/Background/top_right.png"); background-repeat: no-repeat;
+}
+.bg_right_mid {
+	background-image: url("/_layouts/WSS/DBF/ListForm/Background/right_mid.png"); background-repeat: repeat-y;
+}
+.bg_bottom_left {
+	background-image: url("/_layouts/WSS/DBF/ListForm/Background/bottom_left.png"); background-repeat: no-repeat;
+}
+.bg_bottom_mid {
+	background-image: url("/_layouts/WSS/DBF/ListForm/Background/bottom_mid.png"); background-repeat: repeat-x;
+}
+.bg_bottom_right {
+	background-image: url("/_layouts/WSS/DBF/ListForm/Background/bottom_right.png"); background-repeat: no-repeat;
+}
+.bg_left_mid {
+	background-image: url("/_layouts/WSS/DBF/ListForm/Background/left_mid.png"); background-repeat: repeat-y;
+}
+.bg_mid {
+	padding: 15px; border: 1px solid rgb(68, 68, 68); border-image: none; width: 100%; background-color: rgb(255, 255, 255);
+}
+.bg_border_h {
+	height: 15px; font-family: Tahoma; font-size: 0px;
+}
+.bg_border_w {
+	width: 15px; font-family: Tahoma; font-size: 0px;
+}
+.dbf_divMain {
+	text-align: center;
+}
+.dbf_tbForm {
+	margin: 15px auto 0px; width: 100px; height: 100px; text-align: left;
+}
+body {
+	margin: 15px !important; font-family: Tahoma; font-size: 10pt;
+}
+.dbf_listform_root {
+	width: 650px;
+}
+.dbf_listform {
+	width: 100%; margin-top: 10px; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dbf_listForm_topButtonsCell {
+	text-align: right; padding-bottom: 10px;
+}
+.dbf_listform_title {
+	color: rgb(82, 82, 82); font-family: Verdana; font-size: 11px; font-weight: 700; vertical-align: top; border-top-color: rgb(216, 216, 216); border-top-width: 1px; border-top-style: solid;
+}
+.dbf_listform_description {
+	color: rgb(76, 76, 76); clear: both; font-family: Verdana; font-size: 8pt; cursor: default;
+}
+.dbf_listform_description div {
+	color: rgb(76, 76, 76); clear: both; font-family: Verdana; font-size: 8pt; cursor: default;
+}
+.dbf_listform_control {
+	padding: 4px 6px; width: 100%; vertical-align: top; border-top-color: rgb(216, 216, 216); border-top-width: 1px; border-top-style: solid; background-color: rgb(235, 243, 255);
+}
+.dbf_listform_fieldTitleControl {
+	padding: 3px 8px 13px 0px; color: rgb(82, 82, 82); font-family: Verdana; font-size: 11px; font-weight: 700; vertical-align: top; white-space: nowrap;
+}
+.dbf_listform_fieldTitleControl_relative {
+	padding-right: 25px !important; float: left; position: relative;
+}
+.dbf_listform_fieldTooltip {
+	left: 100%; top: 3px; width: 12px; height: 13px; margin-left: -20px; display: block; position: absolute; cursor: pointer; background-image: url("/_layouts/WSS/DBF/UI/Images/info.png"); background-repeat: no-repeat;
+}
+.dbf_listform_fieldTooltip_content {
+	color: rgb(82, 82, 82); font-family: Verdana; font-size: 11px; cursor: default;
+}
+.dbf_listform_fieldTooltip_container {
+	max-width: 300px;
+}
+.dbf_listform_fieldTooltip_container .ttp_top_border_cell {
+	width: auto;
+}
+.layoutzone_top .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.layoutzone_bottom .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.layoutzone_middle .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.dbf_listform_noborder .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.dbf_listform_halftd .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.dbf_listform_nomargin .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.dbf_listform_noborder_nomargin .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.layoutzone_hidden .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.layoutzone_readonly .dbf_listform_fieldTitleControl {
+	overflow: hidden; white-space: normal; -ms-word-wrap: break-word !important;
+}
+.layoutzone_hidden {
+	border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.layoutzone_readonly {
+	border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dbf_listform_footer td {
+	width: 100%; vertical-align: top;
+}
+.dbf_listform_tdbuttons {
+	text-align: right; padding-top: 10px; white-space: nowrap;
+}
+.dbf_listform_tdparams {
+	color: rgb(76, 76, 76); padding-top: 10px; padding-right: 10px; font-family: Tahoma; font-size: 8pt; white-space: nowrap;
+}
+.dbf_listform_toolbar {
+	background: url("/_layouts/images/toolgrad.gif") repeat-x top rgb(215, 232, 255); border: 1px solid rgb(131, 176, 236); border-image: none; width: 100%;
+}
+.dbf_listform_toolbar_height_div {
+	margin: 0px; padding: 0px; width: 1px; height: 22px;
+}
+.dbf_listform_toolbar td {
+	font-family: Verdana; font-size: 8pt; vertical-align: top; white-space: nowrap;
+}
+.dbf_listform_toolbar_tdimage {
+	padding-top: 3px; padding-right: 3px;
+}
+.dbf_listform_toolbar_tdlink {
+	padding-top: 4px !important;
+}
+.dbf_listform_toolbar_tdseparator {
+	color: rgb(131, 176, 236); padding-top: 4px !important; padding-right: 8px; padding-bottom: 5px; padding-left: 8px;
+}
+a.dbf_listform_toolbarLink:hover {
+	color: rgb(0, 55, 152); font-family: Verdana; font-size: 8pt; text-decoration: underline !important;
+}
+a.dbf_listform_toolbarLink {
+	color: rgb(0, 55, 152); font-family: Verdana; font-size: 8pt; text-decoration: none; cursor: pointer;
+}
+a.dbf_listform_toolbarLink:visited {
+	color: rgb(0, 55, 152); font-family: Verdana; font-size: 8pt; text-decoration: none; cursor: pointer;
+}
+.dbf_listform_header_table {
+	margin-top: 10px; margin-bottom: 15px;
+}
+.dbf_listform_header_table_topButtons {
+	margin-top: 10px; margin-bottom: 5px;
+}
+a.dbf_listform_header_listName:hover {
+	color: rgb(82, 82, 82); font-family: Arial Narrow; font-size: 20px; font-weight: bold; text-decoration: underline !important;
+}
+a.dbf_listform_header_listName {
+	color: rgb(82, 82, 82); font-family: Arial Narrow; font-size: 20px; font-weight: bold; text-decoration: none;
+}
+a.dbf_listform_header_listName:visited {
+	color: rgb(82, 82, 82); font-family: Arial Narrow; font-size: 20px; font-weight: bold; text-decoration: none;
+}
+.dbf_listform_header_itemTitle {
+	color: rgb(82, 82, 82); padding-left: 20px; font-family: Arial Narrow; font-size: 20px; text-decoration: none;
+}
+.dbf_listform_halftd {
+	width: 50%; vertical-align: top;
+}
+.dbf_listform_splitter {
+	vertical-align: bottom;
+}
+.dbf_listform_splitter_border {
+	vertical-align: bottom; border-top-color: rgb(216, 216, 216); border-top-width: 1px; border-top-style: solid;
+}
+.dbf_listform_splitter_container {
+	height: 1px; line-height: 1px; position: relative;
+}
+.dbf_listform_splitter_noborder {
+	height: 1px; bottom: -1px; line-height: 1px; position: absolute; z-index: 2; background-color: white;
+}
+.dbf_listform_noborder {
+	width: 100%; margin-top: 10px;
+}
+.dbf_listform_nomargin {
+	width: 100%; border-bottom-color: rgb(216, 216, 216); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dbf_listform_noborder_nomargin {
+	width: 100%;
+}
+.dbf_listform_title_empty {
+	padding: 0px; color: rgb(82, 82, 82); line-height: 1px; font-family: Verdana; font-size: 1px; vertical-align: top; white-space: nowrap;
+}
+.dbf_listform_control_empty {
+	padding: 0px; line-height: 1px; font-size: 1px; vertical-align: top; background-color: rgb(235, 243, 255);
+}
+.dbf_listform_requiredInformer {
+	color: red; clear: left; font-family: Tahoma; font-size: 11px; font-weight: normal; margin-top: 2px; display: none;
+}
+.dbf_listform_lastTitleWord {
+	display: inline-block; white-space: nowrap;
+}
+.dbf_listform_requiredTitle {
+	color: red; padding-left: 4px;
+}
+.dbf_listform_toolbar_menu {
+	border: 1px solid rgb(131, 176, 236); border-image: none; padding-top: 4px; padding-bottom: 4px; position: absolute; background-color: rgb(235, 243, 255);
+}
+a.dbf_listform_toolbar_menu_link {
+	padding: 6px 11px 8px 27px; color: rgb(0, 55, 152); clear: both; font-family: Verdana; font-size: 11px; text-decoration: none; display: block; cursor: pointer;
+}
+a.dbf_listform_toolbar_menu_link:hover {
+	text-decoration: underline;
+}
+.dbf_listform_toolbar_img {
+	width: 16px; height: 16px; cursor: pointer;
+}
+.dbf_listform_toolbar_user_control {
+	text-align: right; overflow: hidden; -ms-text-overflow: ellipsis; max-width: 315px;
+}
+.dbf_listform_toolbar_tdwidth {
+	width: 100%; white-space: nowrap;
+}
+.dbf_listform_toolbar_tduser {
+	text-align: right; color: rgb(81, 84, 89); padding-top: 4px !important; padding-right: 7px; padding-left: 20px; font-family: Tahoma !important; font-size: 11px; font-weight: bold; white-space: nowrap; cursor: default;
+}
+.dbf_listfrom_zoneheader {
+	padding: 30px 0px 10px; text-align: left; color: rgb(82, 82, 82); font-family: Arial Narrow; font-size: 20px; font-weight: 700;
+}

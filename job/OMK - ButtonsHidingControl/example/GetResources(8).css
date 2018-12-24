@@ -1,0 +1,51 @@
+.pdf_select {
+	width: 200px; color: black; font-family: Tahoma; font-size: 11px;
+}
+.pdf_textbox {
+	width: 200px; color: black; font-family: Tahoma; font-size: 11px;
+}
+.pd_file_container {
+	padding-top: 3px; clear: both;
+}
+.pd_top_border_div {
+	height: 1px; line-height: 1px; padding-top: 4px; font-size: 1px; margin-bottom: 7px; border-bottom-color: rgb(210, 219, 216); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pd_file_prop_div {
+	float: left; -ms-word-wrap: break-word;
+}
+.pd_file_img_div {
+	text-align: right; vertical-align: top; float: right;
+}
+.pd_file_icon_link {
+	float: left;
+}
+a.pd_file_link {
+	color: rgb(0, 55, 152); margin-top: 2px; vertical-align: top; -ms-word-wrap: break-word;
+}
+a.pd_file_link {
+	font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}
+a.pd_file_link:visited {
+	font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}
+a.pd_file_link:hover {
+	font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+.pd_file_span {
+	padding-left: 4px;
+}
+.pd_comment_div {
+	padding: 1px 0px; color: rgb(81, 84, 89); clear: left; font-family: Tahoma; font-size: 11px;
+}
+.pd_comment_span {
+	overflow: hidden; -ms-word-wrap: break-word;
+}
+.pd_file_images {
+	margin-right: 3px; margin-bottom: 4px; vertical-align: top;
+}
+.pd_filelink_container {
+	padding-top: 2px; float: left; -ms-word-wrap: break-word;
+}
+.pd_files_container {
+	cursor: default;
+}

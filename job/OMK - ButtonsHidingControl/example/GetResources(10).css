@@ -1,0 +1,378 @@
+.nrd_collapsible {
+	background-position: center; border: 0px currentColor; border-image: none; cursor: pointer; background-image: url("/_layouts/WSS/WSSC.V4.SYS.UI.Controls/TreeControl/Images/plus.png"); background-repeat: no-repeat; background-color: transparent;
+}
+input[type=checkbox] {
+	top: 2px; position: relative;
+}
+ul {
+	margin-top: 0px; margin-bottom: 0px; list-style-type: none;
+}
+#main-div .dbf_listform_firstTitleWord {
+	font-weight: 700;
+}
+#main-div .dbf_listform_control {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none; background-color: transparent;
+}
+#main-div .dbf_listform_title {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+#main-div .dbf_listform_field {
+	width: 500px; font-weight: normal; white-space: normal;
+}
+#main-div .dbf_listform_control {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none; background-color: transparent;
+}
+#main-div .dbf_listform_title {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+#main-div .round_div .top_left {
+	background-position: left; padding-left: 5px; background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top_left.png"); background-repeat: no-repeat;
+}
+#main-div .round_div .mid {
+	padding: 10px 16px; border-right-color: rgb(136, 166, 190); border-left-color: rgb(136, 166, 190); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; background-color: rgb(255, 255, 255);
+}
+#main-div .round_div .bottom_left {
+	background-position: left; padding-left: 5px; background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom_left.png"); background-repeat: no-repeat;
+}
+#main-div .round_div .bottom_right {
+	background-position: right; padding-right: 5px; background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom_right.png"); background-repeat: no-repeat;
+}
+#main-div .round_div .bottom_mid {
+	background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom.png"); background-repeat: repeat-x;
+}
+#main-div .round_div .top_right {
+	background-position: right; padding-right: 5px; background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top_right.png"); background-repeat: no-repeat;
+}
+#main-div .round_div .top_mid {
+	background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top.png"); background-repeat: repeat-x;
+}
+#main-div .round_div .h div {
+	height: 5px; font-family: Tahoma; font-size: 0px;
+}
+.tif_link {
+	color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px; text-decoration: underline; display: block; cursor: pointer;
+}
+.tif_link:visited {
+	color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px; text-decoration: underline; display: block; cursor: pointer;
+}
+.tif_link:hover {
+	color: red; font-family: Tahoma; font-size: 11px; text-decoration: none;
+}
+.tif_header_f {
+	padding: 4px; text-align: center; color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold; white-space: nowrap; background-image: url("/_layouts/images/viewheadergrad.gif"); background-repeat: repeat-x; background-color: rgb(243, 243, 243);
+}
+.tif_header_nf {
+	padding: 4px; text-align: center; color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold; white-space: nowrap; background-image: url("/_layouts/images/viewheadergrad.gif"); background-repeat: repeat-x; background-color: rgb(243, 243, 243);
+}
+.tif_cell_nf {
+	padding: 4px 2px 3px; text-align: center; font-family: Tahoma; font-size: 11px;
+}
+.tif_cell_f {
+	padding: 4px 2px 3px; text-align: center; font-family: Tahoma; font-size: 11px;
+}
+.tif_cell_f {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(128, 128, 128) rgb(128, 128, 128); border-image: none; text-align: center;
+}
+.tif_cell_nf {
+	border-width: 0px 1px 1px medium; border-style: none solid solid none; border-color: currentColor rgb(128, 128, 128) rgb(128, 128, 128) currentColor; border-image: none; text-align: center;
+}
+.tif_row {
+	background-color: rgb(243, 243, 243);
+}
+.tif_row_alternate {
+	background-color: rgb(255, 255, 255);
+}
+.tif_cell_alternate_nf {
+	padding: 4px 2px 3px; border: 1px solid rgb(128, 128, 128); border-image: none; text-align: center; font-family: Tahoma; font-size: 11px;
+}
+.tif_cell_alternate_f {
+	padding: 4px 2px 3px; border: 1px solid rgb(128, 128, 128); border-image: none; text-align: center; font-family: Tahoma; font-size: 11px;
+}
+.tif_cell_alternate_f {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(128, 128, 128) rgb(128, 128, 128); border-image: none; text-align: center;
+}
+.tif_cell_alternate_nf {
+	border-width: 0px 1px 1px medium; border-style: none solid solid none; border-color: currentColor rgb(128, 128, 128) rgb(128, 128, 128) currentColor; border-image: none; text-align: center;
+}
+.tif_header_f {
+	border: 1px solid rgb(128, 128, 128); border-image: none;
+}
+.tif_header_nf {
+	border-width: 1px 1px 1px medium; border-style: solid solid solid none; border-color: rgb(128, 128, 128) rgb(128, 128, 128) rgb(128, 128, 128) currentColor; border-image: none;
+}
+.tif_create_img {
+	width: 16px; height: 16px; float: left; cursor: pointer;
+}
+.tif_createLink {
+	padding-left: 21px;
+}
+.tif_create_container {
+	width: 200px; margin-bottom: 7px;
+}
+.tif_table {
+	width: 100px;
+}
+.tif_textControl {
+	margin: 0px; padding: 1px 0px 0px 2px; outline: 0px; border: 1px solid rgb(127, 157, 185); border-image: none; height: 15px; color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px;
+}
+.tif_multiTextControl {
+	margin: 0px; padding: 0px; outline: 0px; border: 1px solid rgb(127, 157, 185); border-image: none; height: 55px; color: rgb(0, 51, 153); overflow: auto; font-family: Tahoma; font-size: 11px; -ms-word-wrap: break-word; resize: none;
+}
+.tif_view_div {
+	overflow: hidden; -ms-word-wrap: break-word;
+}
+.tif_delete_img {
+	width: 16px; height: 16px; cursor: pointer;
+}
+.tif_save_img {
+	width: 16px; height: 16px; cursor: pointer;
+}
+.tif_edit_img {
+	width: 16px; height: 16px; cursor: pointer;
+}
+.tif_delete_img {
+	padding-left: 3px;
+}
+.tif_img_container {
+	width: 36px; margin-left: 3px;
+}
+.tif_img_container_withCopy {
+	width: 54px; margin-left: 3px;
+}
+.tif_lookupControlWin {
+	outline: 0px; width: 100% !important;
+}
+.tif_dateControl {
+	outline: 0px; border: 1px solid rgb(127, 157, 185); border-image: none; width: 70px; color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px;
+}
+.tif_empty {
+	line-height: 1em; font-size: 1px;
+}
+.tif_select_control {
+	outline: 0px; font-family: Tahoma; font-size: 11px;
+}
+.tcell_edit_container > :first-child {
+	margin: 0px auto;
+}
+.tif_tabs_table {
+	border-collapse: collapse;
+}
+.tif_tabs_cell {
+	padding: 0px; white-space: nowrap; border-collapse: collapse;
+}
+.tif_tabs_list {
+	list-style: none; margin: 0px; padding: 0px 10px 0px 0px;
+}
+.tif_tabs_cell .tif_tabs_link {
+	background: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/norm_left.jpg") no-repeat left top; padding: 5px 15px 4px; text-decoration: none; display: block;
+}
+.tif_tabs_cell a.tif_tabs_link:hover {
+	color: rgb(76, 76, 76); text-decoration: underline;
+}
+.tif_tabs_cell .current a {
+	padding-bottom: 5px; background-image: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/norm_left_on.gif");
+}
+.tif_tabs_cell li {
+	background: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/right.jpg") no-repeat right top; margin: 0px; padding: 0px 0px 0px 9px; float: left;
+}
+.tif_tabs_cell li.default {
+	line-height: 1.25;
+}
+.tif_tabs_cell li {
+	background: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/left.jpg") no-repeat left top; margin: 0px; padding: 0px 0px 0px 9px; float: left;
+}
+.tif_tabs_cell .tif_tabs_link {
+	background: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/left.jpg") no-repeat left top; padding: 5px 15px 4px 6px; display: block;
+}
+.tif_tabs_cell .tif_tabs_link {
+	background: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/right.jpg") no-repeat right top; padding: 5px 15px 4px 6px; color: rgb(76, 76, 76); font-weight: bold; display: block;
+}
+.tif_tabs_cell strong {
+	background: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/right.jpg") no-repeat right top; padding: 5px 15px 4px 6px; color: rgb(76, 76, 76); font-weight: bold; display: block;
+}
+.tif_tabs_cell span {
+	background: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/right.jpg") no-repeat right top; padding: 5px 15px 4px 6px; color: rgb(76, 76, 76); font-weight: bold; display: block;
+}
+.tif_tabs_cell .current a {
+	color: rgb(76, 76, 76); padding-bottom: 5px; margin-bottom: 0px; background-image: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/right_on.gif");
+}
+.tif_tabs_cell .current {
+	background-image: url("/_LAYOUTS/WSS/WSSC.V4.DMS.Fields.TableItems/images/left_on.gif");
+}
+.TomeDiv {
+	margin-top: 3px; margin-left: 10px; float: left; display: block;
+}
+.dr_filter_div {
+	padding: 0px 5px 5px; width: 190px; float: left;
+}
+.dr_filters_div {
+	padding: 5px;
+}
+.dr_grid_div {
+	overflow: auto;
+}
+.dr_middle_b {
+	border-right-color: rgb(136, 166, 190); border-left-color: rgb(136, 166, 190); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.dr_topleft_b {
+	background: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top_left.png") no-repeat left top; height: 5px; padding-left: 5px;
+}
+.dr_topright_b {
+	background: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top_right.png") no-repeat right top; height: 5px; padding-right: 5px;
+}
+.dr_topmiddle_b {
+	background: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top.png") repeat-x left top; height: 5px; line-height: 1em; font-size: 1px;
+}
+.dr_bottomleft_b {
+	background: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom_left.png") no-repeat left bottom; height: 5px; padding-left: 5px;
+}
+.dr_bottomright_b {
+	background: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom_right.png") no-repeat right bottom; height: 5px; padding-right: 5px;
+}
+.dr_bottommiddle_b {
+	background: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom.png") repeat-x left bottom; height: 5px; line-height: 1em; font-size: 1px;
+}
+#content {
+	background-color: white;
+}
+.dr_clear {
+	clear: both;
+}
+.dr_header_div_nowrap {
+	white-space: nowrap;
+}
+.dr_left_wnd_td {
+	padding-top: 9px; vertical-align: middle;
+}
+.dr_filter_td {
+	vertical-align: top;
+}
+.dr_round {
+	margin-top: 10px;
+}
+.dr_filter_txt {
+	border: 1px solid rgb(138, 164, 187); border-image: none; width: 180px; height: 19px; padding-left: 2px; font-family: Tahoma; font-size: 11px; background-color: white;
+}
+#headerDiv {
+	height: 25px; margin-top: -2px; border-bottom-color: rgb(184, 204, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dr_strike_div {
+	text-decoration: line-through; cursor: default;
+}
+.dr_round .grid {
+	width: 100%;
+}
+.dr_round .grid tr {
+	background-color: rgb(238, 242, 246);
+}
+.dr_round .grid_row_alternate {
+	background-color: rgb(255, 255, 255) !important;
+}
+.dr_round .grid_cell {
+	padding: 3px 8px 4px; color: black; font-family: Tahoma; font-size: 12px;
+}
+.dr_round a.grid_headerLink:hover {
+	color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: 700; text-decoration: underline;
+}
+.dr_btn_td {
+	width: 86px; vertical-align: top;
+}
+.dr_rel_right_div {
+	left: 100%; margin-left: -94px; position: relative;
+}
+.dr_abs_right_div {
+	position: absolute;
+}
+.dr_btnclose_td {
+	width: 86px; padding-top: 7px; vertical-align: top;
+}
+.dr_btnclose_td .btn_left {
+	width: 86px;
+}
+.dr_btn_td .btn_left {
+	width: 86px;
+}
+.dr_round a.grid_headerLink {
+	color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold !important; text-decoration: none;
+}
+.dr_round a.grid_headerLink:visited {
+	color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold !important; text-decoration: none;
+}
+.dr_round .grid_headerLabel {
+	color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold !important; text-decoration: none;
+}
+.dr_grid_div .grid_header {
+	padding: 0px 5px 5px 0px; background-image: none; background-color: white;
+}
+#headerDiv .grid_header {
+	padding: 0px 5px 5px 0px; background-image: none; background-color: white;
+}
+a.dr_link_toword {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 11px; text-decoration: underline; cursor: pointer;
+}
+a.dr_link_toword:hover {
+	text-decoration: none;
+}
+.dr_lookup_filter_td {
+	vertical-align: top;
+}
+.dr_lookup_filter_div {
+	padding: 0px 5px 5px; float: left;
+}
+.dr_lookup_btn_td {
+	width: 86px; vertical-align: top;
+}
+.dr_lookup_left_wnd_td {
+	padding-top: 9px; vertical-align: middle;
+}
+.dr_lookup_btnclose_td {
+	width: 86px; padding-top: 7px; vertical-align: top;
+}
+.dr_lookup_btnclose_td .btn_left {
+	width: 86px;
+}
+.dr_lookup_btn_td .btn_left {
+	width: 86px;
+}
+.dr_lookup_left_wnd_td .btn_left {
+	width: 86px;
+}
+.dr_lookup_rel_right_div {
+	left: 100%; margin-left: -94px; position: relative;
+}
+.dr_lookup_rel_ok_div {
+	left: 100%; margin-left: -196px; position: relative;
+}
+.dr_lookup_abs_right_div {
+	position: absolute;
+}
+.dr_lookup_round {
+	margin-top: 10px;
+}
+.dr_lookup_divSelectResult {
+	padding: 0px 6px 6px 10px; border: 0px solid rgb(136, 166, 190); border-image: none; height: 85px; -ms-overflow-y: auto; background-color: rgb(255, 255, 255);
+}
+.dr_lookup_grid_div {
+	border: 0px solid rgb(136, 166, 190); border-image: none; overflow: auto;
+}
+.dr_lookup_mid {
+	border-right-color: rgb(136, 166, 190); border-left-color: rgb(136, 166, 190); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.dr_lookup_round a.grid_headerLink {
+	color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold !important; text-decoration: none;
+}
+.dr_lookup_round a.grid_headerLink:visited {
+	color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold !important; text-decoration: none;
+}
+.dr_lookup_round .grid_headerLabel {
+	color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold !important; text-decoration: none;
+}
+.dr_lookup_grid_div .grid_header {
+	padding: 0px 5px 5px 0px; background-image: none; background-color: white;
+}
+#headerDiv .grid_header {
+	padding: 0px 5px 5px 0px; background-image: none; background-color: white;
+}
+.gdControlIndicator {
+	margin-top: 2px; margin-right: 10px; margin-left: 10px; float: right; white-space: nowrap;
+}

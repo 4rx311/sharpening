@@ -1,0 +1,126 @@
+body {
+	margin: 0px;
+}
+.ptree_treeNodeTable {
+	margin-top: 9px; cursor: default;
+}
+.ptree_treeNodeTable td {
+	font-family: Tahoma; font-size: 11px; vertical-align: top;
+}
+.ptree_levelOffset {
+	width: 18px; font-family: Tahoma; font-size: 0px;
+}
+.ptree_expandOffset {
+	width: 13px; text-align: left; padding-top: 3px; padding-bottom: 2px; font-family: Tahoma; font-size: 0px;
+}
+.ptree_expandOffset_container {
+	cursor: pointer;
+}
+.card_rubricNodeCell {
+	padding-top: 1px; padding-left: 1px;
+}
+a.card_rubricLink {
+	color: rgb(48, 103, 168); font-family: Tahoma; font-size: 8pt; text-decoration: none; display: block;
+}
+a.card_rubricLink:visited {
+	color: rgb(48, 103, 168); font-family: Tahoma; font-size: 8pt; text-decoration: none; display: block;
+}
+a.card_rubricLink:hover {
+	text-decoration: none;
+}
+.card_rubricImage {
+	display: block; cursor: pointer;
+}
+.pbl_rubricWindow .ScrollStyle {
+	-ms-scrollbar-base-color: rgb(255, 255, 255); -ms-scrollbar-face-color: rgb(243, 244, 246); -ms-scrollbar-3dlight-color: rgb(243, 244, 246); -ms-scrollbar-shadow-color: rgb(146, 146, 148); -ms-scrollbar-highlight-color: rgb(234, 239, 248); -ms-scrollbar-darkshadow-color: black; -ms-scrollbar-arrow-color: rgb(0, 0, 0);
+}
+.pbl_divMenu {
+	padding-bottom: 13px;
+}
+.pbl_tdMenuGrey {
+	padding: 0px 11px; height: 22px; cursor: pointer;
+}
+.pbl_tdMenuGreyText {
+	color: rgb(17, 17, 17); font-family: Tahoma; font-size: 8pt; font-weight: bold;
+}
+.pbl_tdMenuGrey_current {
+	padding: 0px 11px; height: 22px; background-color: rgb(186, 211, 228);
+}
+.pbl_tdMenuGreyText_current {
+	color: rgb(17, 17, 17); font-family: Tahoma; font-size: 8pt; font-weight: bold;
+}
+.pbl_divButtons {
+	margin-left: 10px;
+}
+.pbl_sizedButton {
+	width: 78px !important;
+}
+.pbl_rubricWindow .pbl_buttons {
+	height: 19px; padding-top: 16px;
+}
+.pbl_rubricWindow .round_div .w div {
+	width: 5px; font-family: Tahoma; font-size: 0px;
+}
+.pbl_rubricWindow .round_div .h div {
+	height: 5px; font-family: Tahoma; font-size: 0px;
+}
+.pbl_rubricWindow .round_div .top_left {
+	background-position: left; padding-left: 5px; background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top_left.png"); background-repeat: no-repeat;
+}
+.pbl_rubricWindow .round_div .top_mid {
+	background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top.png"); background-repeat: repeat-x;
+}
+.pbl_rubricWindow .round_div .top_right {
+	background-position: right; padding-right: 5px; background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_top_right.png"); background-repeat: no-repeat;
+}
+.pbl_rubricWindow .round_div .mid {
+	border-right-color: rgb(136, 166, 190); border-left-color: rgb(136, 166, 190); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; background-color: rgb(255, 255, 255);
+}
+.pbl_rubricWindow .round_div .bottom_left {
+	background-position: left; padding-left: 5px; background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom_left.png"); background-repeat: no-repeat;
+}
+.pbl_rubricWindow .round_div .bottom_mid {
+	background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom.png"); background-repeat: repeat-x;
+}
+.pbl_rubricWindow .round_div .bottom_right {
+	background-position: right; padding-right: 5px; background-image: url("/_layouts/WSS/WSSC.V4.SYS.Fields.Lookup/Images/b_bottom_right.png"); background-repeat: no-repeat;
+}
+.pbl_divTree {
+	padding: 3px 10px; overflow: auto;
+}
+.card_rubricImage {
+	margin-right: 4px;
+}
+.card_rubricLink {
+	color: rgb(0, 55, 152) !important;
+}
+.card_rubricLink_disabled {
+	color: rgb(17, 17, 17) !important; cursor: default !important;
+}
+.card_rubricImage_disabled {
+	cursor: default !important;
+}
+.pbl_displayMode .card_rubricImage {
+	cursor: default !important;
+}
+.pbl_displayMode .card_rubricLink {
+	cursor: default !important;
+}
+a.pbl_link {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+a.pbl_link:visited {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+a.pbl_link:hover {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}
+a.pbl_link_disabled {
+	color: rgb(85, 85, 85); font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+a.pbl_link_disabled:visited {
+	color: rgb(85, 85, 85); font-family: Tahoma; font-size: 8pt; text-decoration: underline;
+}
+a.pbl_link_disabled:hover {
+	color: rgb(85, 85, 85); font-family: Tahoma; font-size: 8pt; text-decoration: none;
+}

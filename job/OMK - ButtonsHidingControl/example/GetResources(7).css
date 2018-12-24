@@ -1,0 +1,171 @@
+a.nf_link {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 11px; text-decoration: underline;
+}
+a.nf_link:visited {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 11px; text-decoration: underline;
+}
+a.nf_link:hover {
+	color: rgb(0, 55, 152); font-family: Tahoma; font-size: 11px; text-decoration: none;
+}
+.nf_text {
+	color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px;
+}
+.nf_editctl {
+	padding: 0px 2px 2px; border: 1px solid rgb(127, 157, 185); border-image: none; height: 17px; color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px; background-color: rgb(255, 255, 255);
+}
+.nf_font {
+	color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px;
+}
+.nf_table {
+	background-color: rgb(128, 128, 128);
+}
+.nf_table_header {
+	padding: 4px; color: rgb(76, 76, 76); font-family: Tahoma; font-size: 11px; font-weight: bold; white-space: nowrap; background-image: url("/_layouts/images/viewheadergrad.gif"); background-repeat: repeat-x; background-color: rgb(243, 243, 243);
+}
+.nf_table_cell {
+	padding: 4px; font-family: Tahoma; font-size: 11px; background-color: rgb(255, 255, 255);
+}
+.nf_table_cell_alternate {
+	padding: 4px; font-family: Tahoma; font-size: 11px; background-color: rgb(243, 243, 243);
+}
+.nf_textControl {
+	border: 1px solid rgb(127, 157, 185); border-image: none; width: 100%; color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px;
+}
+.nf_noteControl {
+	border: 1px solid rgb(127, 157, 185); border-image: none; width: 100%; height: 50px; color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px;
+}
+.nf_lookupControlDdl {
+	font-family: Tahoma; font-size: 11px;
+}
+.nf_dateControl {
+	border: 1px solid rgb(127, 157, 185); border-image: none; width: 70px; color: rgb(0, 51, 153); font-family: Tahoma; font-size: 11px;
+}
+.nf_divGroupMembersContent {
+	border: 1px solid rgb(136, 166, 190); border-image: none; font-family: Tahoma; font-size: 11px; cursor: default; background-color: rgb(255, 255, 255);
+}
+.nf_divGroupMembers {
+	padding: 0px 5px 5px 0px; font-family: Tahoma; font-size: 11px; position: absolute; z-index: 50000; cursor: default;
+}
+.nf_countCell {
+	color: rgb(17, 17, 17); padding-left: 3px; font-family: Tahoma; font-size: 11px; cursor: default;
+}
+.nf_button {
+	width: 11.5em; height: 2.1em; font-family: Tahoma; font-size: 8pt;
+}
+.nf_divButtons {
+	text-align: left; padding-right: 0px;
+}
+.nf_font {
+	font-family: Tahoma; font-size: 8pt;
+}
+.nf_divMenu {
+	padding-bottom: 13px;
+}
+.nf_tdMenuGrey {
+	padding: 0px 11px; height: 22px; cursor: pointer;
+}
+.nf_tdMenuGreyText {
+	color: rgb(17, 17, 17); font-family: Tahoma; font-size: 8pt; font-weight: bold;
+}
+.nf_tdMenuGrey_current {
+	padding: 0px 11px; height: 22px; background-color: rgb(186, 211, 228);
+}
+.nf_tdMenuGreyText_current {
+	color: rgb(17, 17, 17); font-family: Tahoma; font-size: 8pt; font-weight: bold;
+}
+.nf_divSection {
+	width: 100%; display: none;
+}
+.nf_divTxtAddressats {
+	padding: 0px 7px;
+}
+.nf_addressesContent .dbf_lookup_divMain {
+	padding-bottom: 12px;
+}
+.nf_addrBorder {
+	border: 1px solid rgb(136, 166, 190); border-image: none; background-color: rgb(255, 255, 255);
+}
+.nf_txtDirectAddressats {
+	margin: 1px; padding: 0px; outline: 0px; border: 0px solid rgb(136, 166, 190); border-image: none; width: 100%; height: 100%; overflow: auto; font-family: Tahoma; font-size: 10pt; background-color: rgb(253, 253, 253); resize: none;
+}
+.nf_groupsContent .dbf_lookup_divGrid {
+	
+}
+.nf_groupsContent .dbf_lookup_divGrid .grid {
+	
+}
+.nf_divGridPoint {
+	position: relative;
+}
+.dbf_lookup_sizedButton {
+	width: 78px !important;
+}
+.dbf_lookup_btnOKCancel {
+	margin-left: 10px;
+}
+.dbf_lookup_windowFooter {
+	width: 100%;
+}
+.nf_divGroupMembers {
+	left: 0px; top: 0px; position: absolute; z-index: 3000;
+}
+.gmw_divMain {
+	padding: 13px; border: 1px solid rgb(136, 166, 190); border-image: none; font-family: Tahoma; font-size: 11px; cursor: default; background-color: rgb(255, 255, 255);
+}
+.gmw_sizedButton {
+	width: 78px !important; float: right !important;
+}
+.gmw_tdGrid {
+	padding-top: 7px;
+}
+.gmw_tdFilter {
+	padding-right: 10px; vertical-align: top;
+}
+.nf_scroll {
+	-ms-scrollbar-base-color: rgb(255, 255, 255); -ms-scrollbar-face-color: rgb(243, 244, 246); -ms-scrollbar-3dlight-color: rgb(243, 244, 246); -ms-scrollbar-shadow-color: rgb(146, 146, 148); -ms-scrollbar-highlight-color: rgb(234, 239, 248); -ms-scrollbar-darkshadow-color: black; -ms-scrollbar-arrow-color: rgb(0, 0, 0);
+}
+.gmw_divGrid {
+	overflow: auto;
+}
+.gmw_divMain .grid_header_topRow {
+	top: auto !important; position: static !important;
+}
+.gmw_divMain .grid_header {
+	border-top-color: rgb(136, 166, 190) !important; border-top-width: 1px !important; border-top-style: solid !important; background-image: none !important; background-color: rgb(238, 243, 247) !important;
+}
+.gmw_divMain .grid_headerLabel {
+	color: rgb(86, 81, 78) !important; font-weight: bold !important;
+}
+.gmw_divMain .grid_row_alternate {
+	background-color: rgb(238, 242, 246) !important;
+}
+.gmw_divMain .grid_cell {
+	color: rgb(17, 17, 17) !important;
+}
+.nf_tdSectionTitle {
+	padding: 0px 0px 10px 10px; width: 80px; color: rgb(81, 84, 89); font-family: Tahoma; font-size: 11px; font-weight: bold; vertical-align: top;
+}
+.nf_tdSectionCnt {
+	padding: 0px 0px 10px 10px; vertical-align: top;
+}
+.last {
+	padding-bottom: 0px !important;
+}
+.first {
+	padding-top: 0px !important;
+}
+.nf_divViewButtons {
+	text-align: right; padding-top: 16px;
+}
+.nf_divCnt {
+	padding: 3px 3px 3px 5px; border: 1px solid rgb(136, 166, 190); border-image: none; height: 13px; color: rgb(0, 51, 153); font-family: Tahoma; font-size: 8pt; background-color: rgb(255, 255, 255);
+}
+.nf_divItem {
+	color: rgb(17, 17, 17); font-family: Tahoma; font-size: 11px; -ms-word-wrap: break-word;
+}
+.nf_lookup_sizedButton {
+	width: 78px !important;
+}
+.nf_lookup_btnOKCancel {
+	margin-left: 10px;
+}

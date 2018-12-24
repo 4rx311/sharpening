@@ -1,0 +1,27 @@
+.ui-datepicker {
+	font-family: Tahoma !important; font-size: 8pt !important; z-index: 7777 !important;
+}
+.ui-datepicker-trigger {
+	margin-bottom: 2px; margin-left: 1px; vertical-align: middle; cursor: pointer !important;
+}
+.day-of-week-input {
+	border: 0px currentColor; border-image: none; width: 20px; font-family: Verdana,sans-serif; font-size: 8pt; margin-top: -17px; margin-left: -22px; display: inline-block;
+}
+.DateTimeControl_date_input {
+	width: 100px; line-height: 1.2em; font-family: Verdana,sans-serif; font-size: 8pt;
+}
+.DateTimeControl_cell_time {
+	font-size: 8pt;
+}
+.DateTimeControl_cell_date {
+	white-space: nowrap;
+}
+.DateTimeControl_ddl_hours {
+	height: 20px; font-family: Verdana,sans-serif; font-size: 8pt; margin-right: 3px;
+}
+.DateTimeControl_ddl_minutes {
+	height: 20px; font-family: Verdana,sans-serif; font-size: 8pt;
+}
+.DateTimeControl_tbl {
+	border-collapse: collapse;
+}
