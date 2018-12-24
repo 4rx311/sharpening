@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <web name="/dms/Contracts">
+    <list name="Contracts" fieldName="Вид задачи">
+      <link pathName="Разработка" settingName="devtask"/>
+      <link pathName="Настройка" settingName="task"/>
+    </list>
+  </web>
+</root>
