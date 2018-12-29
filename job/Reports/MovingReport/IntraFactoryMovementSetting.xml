@@ -1,0 +1,13 @@
+﻿<Columns>
+  <Column Name="№ оформления заявки в ИС ВМЗ" FieldName="Регистрационный номер"/>
+  <Column Name="Дата оформления заявки в ИС ВМЗ" FieldName="Дата регистрации"/>
+  <Column Name="Форма и № накладной" FieldName="Номер накладной|Дата накладной"/>
+  <Column Name="Откуда" FieldName="Откуда"/>
+  <Column Name="Куда" FieldName="Куда"/>
+  <Column Name="Отв. за доставку у ТМЦ" FieldName="ФИО"/>
+  <Column Name="Водитель" FieldName="ФИО"/>
+  <Column Name="Марка а/тр." FieldName="Марка"/>
+  <Column Name="Гос. № а/тр." FieldName="Рег. номер"/>
+  <Column Name="Наименование ТМЦ, Кол-во" CustomRenderMethod="MovedTMC"/>
+  <Column Name="" CustomHeaderMethod="IntraFactoryMovementHeader" CustomRenderMethod="IntraFactoryMovement"/>
+</Columns>

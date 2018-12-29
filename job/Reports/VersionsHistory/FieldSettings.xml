@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  
+<!--Настройка констант-->
+<Settings>
+  <Lists>
+    <List name="Contracts">
+      <Fields>
+        <Field name = "Номер" />
+        <Field name = "Дата" />
+        <Field name = "Контрагент" />
+        <Field name = "Сумма" />
+        <Field name = "Инициатор" />
+        <Field name = "Подразделение" />
+        <Field name = "Ссылки на доп соглашения" />
+        <Field name = "Тип договора" />
+        <Field name = "Предмет договора" />
+        <Field name = "Наименование" />
+        <Field name = "Исполнитель" />
+      </Fields>
+
+      <TableElemetSettings>
+        <SourceField name ="Поле-источник_1"/>
+        <SourceField name ="Поле-источник"/>
+      </TableElemetSettings>
+
+      <GroupSetting Interval="80" ForceGroupFirst="2" />
+
+    </List>
+  </Lists>
+</Settings>
+
+
+<!--Настройка ссылки на страницу-->
+<link title="История версий"
+      url="/_LAYOUTS/WSS/WSSC.V4.DMS.OMK/Reports/VersionsHistory/VersionsHistoryPage.aspx?FactUserInBrackets=true&amp;webID={0}&amp;listID={1}&amp;itemID={2}&amp;settingName=AgreementRep"
+      isAgreementSheet="true"/>
+</root>
