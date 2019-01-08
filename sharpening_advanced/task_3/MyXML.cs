@@ -133,19 +133,20 @@ namespace task_3
         /// </summary>
         /// <param name="attribute">атрибут</param>
         /// <param name="value">значение атрибута</param>
-        public void Search(string attribute, string value)
+        public void Search(string attr, string request)
         {
             XElement root = XElement.Load(this.FilePath + this.FileName);
             IEnumerable<XElement> phone =
                 from el in root.Elements("Contact")
-                where (string)el.Attribute(attribute) == value
+                where el.Attribute(attr).Value.Contains(request)
                 select el;
             foreach (XElement el in phone)
                 Console.WriteLine(el);
         }
 
-        // TODO: Доделать поиск по XML
+        // Альтернативный поиск по XML
         // ссылка на пример: https://stackoverflow.com/questions/5173062/what-is-a-fastest-way-to-do-search-through-xml
+        [Obsolete]
         public void SearchByTel(string PhoneNumber)
         {
             XmlReaderSettings settings = new XmlReaderSettings();
