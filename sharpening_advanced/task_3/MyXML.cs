@@ -128,19 +128,20 @@ namespace task_3
             Console.WriteLine();
         }
 
-        public void SearchByName(string TelNumber)
+        /// <summary>
+        /// Выводит узел с соответствующим значением аттрибута
+        /// </summary>
+        /// <param name="attribute">атрибут</param>
+        /// <param name="value">значение атрибута</param>
+        public void Search(string attr, string request)
         {
-            //TelNumber = "8(495) 708-33-94"
-            List<string> result = new List<string>();
-
             XElement root = XElement.Load(this.FilePath + this.FileName);
-            IEnumerable<XElement> contactList =
-                from elem in root.Descendants("Contact")
-                where (string)elem.Attribute("Name") == TelNumber
-                select elem;
-            foreach (XElement elem in contactList)
-                Console.WriteLine(elem);
-                //result.Add(contact.Attributes["TelNumber"]?.InnerText);
+            IEnumerable<XElement> phone =
+                from el in root.Elements("Contact")
+                where el.Attribute(attr).Value.Contains(request)
+                select el;
+            foreach (XElement el in phone)
+                Console.WriteLine(el);
         }
 
         public void Search(string value)
@@ -157,6 +158,7 @@ namespace task_3
 
         // TODO: Доделать поиск по XML
         // ссылка на пример: https://stackoverflow.com/questions/5173062/what-is-a-fastest-way-to-do-search-through-xml
+        [Obsolete]
         public void SearchByTel(string PhoneNumber)
         {
             XmlReaderSettings settings = new XmlReaderSettings();

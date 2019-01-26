@@ -84,6 +84,11 @@ namespace task_3
             stream.Close();
         }
 
+
+        /// <summary>
+        /// Возвращет массив строк, прочитанных из .txt файла
+        /// </summary>
+        /// <returns>массив строк</returns>
         public void PrintFileData()
         {
             Console.WriteLine($"Содержимое файла {this.FileName}:\n");
@@ -96,12 +101,6 @@ namespace task_3
 
             reader.Close();
         }
-
-        /// <summary>
-        /// Возвращет массив строк, прочитанных из .txt файла
-        /// </summary>
-        /// <returns>массив строк</returns>
-        
 
         /// <summary>
         /// Коснтруктор.

@@ -1,0 +1,128 @@
+﻿.page_body {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/bg.png);
+    background-color: #7fa4bf;
+    background-repeat: no-repeat;
+    background-position: center -100px;
+    margin: 0 !important;
+}
+
+.page_header {
+    font-family: Tahoma;
+    font-size: 14px;
+    margin: 0 0 7px;
+    text-align: center;
+}
+
+.history_report_container_tbl {
+    width: 742px;
+    margin: 15px auto 0;
+}
+.history_table {
+    border: 1px solid #88a6be;
+    width: 100%;
+    font: 12px Tahoma;
+}
+.history_table_header {
+    border: 1px solid #88a6be;
+    border-collapse: collapse;
+    background-color: #ebf3ff !important;
+    height: auto !important;
+    line-height: 1.3em;
+    font-weight: bold;
+    vertical-align: middle;
+    padding: 6px;
+    color: #515459;
+}
+.history_table_cell {
+    vertical-align: top;
+    border: 1px solid #88a6be;
+    border-collapse: collapse;
+    padding: 6px;
+}
+
+.history_table_cell_first {
+    vertical-align: top;
+    border: 1px solid #88a6be;
+    border-collapse: collapse;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.bg_top_left {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/top_left.png);
+    background-repeat: no-repeat;
+}
+.bg_top_mid {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/top_mid.png);
+    background-repeat: repeat-x;
+}
+.bg_top_right {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/top_right.png);
+    background-repeat: no-repeat;
+}
+
+
+.bg_left_mid {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/left_mid.png);
+    background-repeat: repeat-y;
+}
+.bg_mid {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #444;
+    padding: 15px;
+}
+.bg_right_mid {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/right_mid.png);
+    background-repeat: repeat-y;
+}
+
+.bg_bottom_left {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/bottom_left.png);
+    background-repeat: no-repeat;
+}
+.bg_bottom_mid {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/bottom_mid.png);
+    background-repeat: repeat-x;
+}
+.bg_bottom_right {
+    background-image: url(/_layouts/WSS/DBF/ListForm/Background/bottom_right.png);
+    background-repeat: no-repeat;
+}
+
+.bg_border_h {
+    height: 15px;
+    font-family: Tahoma;
+    font-size: 0;
+}
+.bg_border_w {
+    width: 15px;
+    font-family: Tahoma;
+    font-size: 0;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table {
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border-color: grey;
+    font: 12px Tahoma;
+    width: 100%;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+div {
+    display: block;
+}
