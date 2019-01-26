@@ -143,6 +143,18 @@ namespace task_3
                 //result.Add(contact.Attributes["TelNumber"]?.InnerText);
         }
 
+        public void Search(string value)
+        {
+            //TelNumber = "8(495) 708-33-94"
+            XElement root = XElement.Load(this.FilePath + this.FileName);
+            IEnumerable<XElement> phone =
+                from el in root.Elements("Contact")
+                where (string)el.Attribute("TelNumber") == value
+                select el;
+            foreach (XElement el in phone)
+                Console.WriteLine(el);
+        }
+
         // TODO: Доделать поиск по XML
         // ссылка на пример: https://stackoverflow.com/questions/5173062/what-is-a-fastest-way-to-do-search-through-xml
         public void SearchByTel(string PhoneNumber)

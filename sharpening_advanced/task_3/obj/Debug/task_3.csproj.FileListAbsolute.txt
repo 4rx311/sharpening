@@ -10,3 +10,9 @@ C:\Users\dvladimirov\source\repos\GitHub\sharpening\sharpening_advanced\task_3\o
 C:\Users\dvladimirov\source\repos\GitHub\sharpening\sharpening_advanced\task_3\obj\Debug\task_3.csproj.CoreCompileInputs.cache
 C:\Users\dvladimirov\source\repos\GitHub\sharpening\sharpening_advanced\task_3\obj\Debug\task_3.exe
 C:\Users\dvladimirov\source\repos\GitHub\sharpening\sharpening_advanced\task_3\obj\Debug\task_3.pdb
+C:\Users\4rx\source\GitHub\sharpening\sharpening_advanced\task_3\bin\Debug\task_3.exe
+C:\Users\4rx\source\GitHub\sharpening\sharpening_advanced\task_3\bin\Debug\task_3.pdb
+C:\Users\4rx\source\GitHub\sharpening\sharpening_advanced\task_3\obj\Debug\task_3.csprojAssemblyReference.cache
+C:\Users\4rx\source\GitHub\sharpening\sharpening_advanced\task_3\obj\Debug\task_3.csproj.CoreCompileInputs.cache
+C:\Users\4rx\source\GitHub\sharpening\sharpening_advanced\task_3\obj\Debug\task_3.exe
+C:\Users\4rx\source\GitHub\sharpening\sharpening_advanced\task_3\obj\Debug\task_3.pdb
